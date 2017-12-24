@@ -28,3 +28,11 @@ Vaig a provar el Markdown:
 ## Latex
 
 $$a^2 + b^2 = c^2$$
+
+$$ E = m\cdot c^2 \label{eq:mc2}$$
+
+\ref{eq:mc2}
+
+## Inline Latex
+
+$ J(x) = \int{L(t, x, \dot{x}) dt} \$
