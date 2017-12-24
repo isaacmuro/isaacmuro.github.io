@@ -24,3 +24,7 @@ Vaig a provar el Markdown:
 ## Una imatge
 
 ![Imatge de prova](https://docs.gitlab.com/ee/user/img/markdown_logo.png "Markdown logo")
+
+## Latex
+
+$$a^2 + b^2 = c^2$$
