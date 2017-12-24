@@ -1,5 +1,5 @@
 name: Isaac Muro, Teacher
-markdown: kramdown
+markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title
 paginate: 5
 paginate_path: "/blog/page:num/"
