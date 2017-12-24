@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Isaac Muro"
+title: "El meu primer post a github"
 date: 2017-12-24
 ---
 
