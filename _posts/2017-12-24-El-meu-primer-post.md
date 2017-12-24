@@ -8,7 +8,7 @@ Well. Finally got around to putting this old website together. Neat thing about 
 
 Vaig a provar el Markdown:
 
-# Llista de la compra
+## Llista de la compra
 
 * Pastanagues
 * Llevadura
@@ -21,6 +21,6 @@ Vaig a provar el Markdown:
 
 [Markdown PDF](http://packetlife.net/media/library/16/Markdown.pdf)
 
-# Una imatge
+## Una imatge
 
-![Imatge de prova] (https://docs.gitlab.com/ee/user/img/markdown_logo.png "Markdown logo")
+![Imatge de prova](https://docs.gitlab.com/ee/user/img/markdown_logo.png "Markdown logo")
