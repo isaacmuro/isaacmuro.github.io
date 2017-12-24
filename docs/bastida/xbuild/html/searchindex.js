@@ -1,1 +1,0 @@
-Search.setIndex({docnames:["index"],envversion:52,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{"\u00edndex":0,"m\u00f2dul":0,"p\u00e0gina":0,cerca:0},titles:["Welcome to Bastida\u2019s documentation!"],titleterms:{bastida:0,document:0,indic:0,tabl:0,welcom:0}})
