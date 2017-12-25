@@ -14,7 +14,9 @@ paginate_path: "/blog/page:num/"
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
-site.disqus.shortname: https://isaacmuro-github-io
+
+disqus.shortname: https://isaacmuro-github-io
+
 permalink: /blog/:year/:month/:day/:title
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
