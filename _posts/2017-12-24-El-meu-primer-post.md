@@ -2,6 +2,7 @@
 layout: post
 title: "La recepta de l'spanakopita"
 date: 2017-12-24
+comments: true
 ---
 
 ## Spanakopita
@@ -38,3 +39,5 @@ date: 2017-12-24
 # Markdown
 
 [Markdown PDF](http://packetlife.net/media/library/16/Markdown.pdf)
+
+[Markdown PDF 2](https://learn.getgrav.org/content/markdown)
