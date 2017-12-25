@@ -198,3 +198,50 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
+
+#Add project information to the template context.
+context = {
+    'html_theme': html_theme,
+    'current_version': "latest",
+    'version_slug': "latest",
+    'MEDIA_URL': "https://media.readthedocs.org/",
+    'PRODUCTION_DOMAIN': "readthedocs.org",
+    'versions': [
+    ("latest", "/en/latest/"),
+    ],
+    'downloads': [
+    ("pdf", "//readthedocs.org/projects/prova-bastida-projecte/downloads/pdf/latest/"),
+    ("htmlzip", "//readthedocs.org/projects/prova-bastida-projecte/downloads/htmlzip/latest/"),
+    ("epub", "//readthedocs.org/projects/prova-bastida-projecte/downloads/epub/latest/"),
+    ],
+    'subprojects': [
+    ],
+    'slug': 'prova-bastida-projecte',
+    'name': u'Prova Bastida Projecte',
+    'rtd_language': u'en',
+    'canonical_url': 'http://prova-bastida-projecte.readthedocs.io/en/latest/',
+    'analytics_code': 'None',
+    'single_version': False,
+    'conf_py_path': '/docs/',
+    'api_host': 'https://readthedocs.org',
+    'github_user': 'isaacmuro',
+    'github_repo': 'isaacmuro.github.io',
+    'github_version': 'master',
+    'display_github': True,
+    'bitbucket_user': 'None',
+    'bitbucket_repo': 'None',
+    'bitbucket_version': 'master',
+    'display_bitbucket': False,
+    'gitlab_user': 'None',
+    'gitlab_repo': 'None',
+    'gitlab_version': 'master',
+    'display_gitlab': False,
+    'READTHEDOCS': True,
+    'using_theme': (html_theme == "default"),
+    'new_theme': (html_theme == "sphinx_rtd_theme"),
+    'user_analytics_code': '',
+    'global_analytics_code': 'None',
+
+    'commit': '83148585',
+
+}

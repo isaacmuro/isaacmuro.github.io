@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "El meu primer post a github - La recepta de l'spanakopita"
+title: "La recepta de l'spanakopita"
 date: 2017-12-24
 ---
 
@@ -33,36 +33,8 @@ date: 2017-12-24
 10. Ho recobrim amb tres capes més de les boles. Entre les capes, sempre afegim oli.
 11. Posar oli a dalt també.
 12. Tallar en vertical les tres capes de sobre. Cada tall amb una separació de 6 centímetres. Per sobre, li posarem una mica d'aigua.
-13. Ho posarem al forn 1 horaa 200 graus. 
+13. Ho posarem al forn 1 horaa 200 graus.
 
-
-Vaig a provar el Markdown:
-
-## Llista de la compra
-
-* Pastanagues
-* Llevadura
-
-1. Fer la compra
-2. Cuinar
-3. Menjar
-
-> Això em sembla que quedarà com una cita
+# Markdown
 
 [Markdown PDF](http://packetlife.net/media/library/16/Markdown.pdf)
-
-## Una imatge
-
-![Imatge de prova](https://docs.gitlab.com/ee/user/img/markdown_logo.png "Markdown logo")
-
-## Latex
-
-$$a^2 + b^2 = c^2$$
-
-$$ E = m\cdot c^2 \label{eq:mc2}$$
-
-\ref{eq:mc2}
-
-## Inline Latex
-
-$ J(x) = \int{L(t, x, \dot{x}) dt} \$
