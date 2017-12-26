@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "La recepta de l'spanakopita"
+title: "La recepta de la spanakopita"
 date: 2017-12-24
 comments: true
 ---

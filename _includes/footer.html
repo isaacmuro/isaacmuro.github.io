@@ -6,15 +6,14 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
+            {% if site.source_code %}
+              <a href="{{ site.source_code }}"><img src="/assets/img/sourcecode.png" /> Codi Font de la P&agrave;gina</a>
             {% endif %}
             </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
+            <li>
+                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="/assets/img/creativecommons.png" /> CC-BY-SA</a>
+            </li>
+
         </ul>
       </div>
 
