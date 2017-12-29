@@ -3,8 +3,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
+  <style>
+  .post-tag::before {
+    content: "\f02b";
+    font-family: FontAwesome;
+    padding-right: .5em;
+}
+.goo{
+  text-align:center;
+}
+.post-tag {
+    display: inline-block;
+    background: rgba(106,159,181,0.15);
+    padding: 0 .5rem;
+    margin-right: .5rem;
+    border-radius: 4px;
+    color: #6a9fb5;
+    font-family: "PT Sans",Helvetica,Arial,sans-serif;
+    font-size: 90%;
+  }
+.tags-expo-posts{
+    list-style-type: circle;
+list-style-position: inside;
+padding: 0;
+  }
+  .post-date{
+    display: inline-block;
+font-size: 80%;
+color: #9a9a9a;
+margin: 0;
+padding: 0;
+  }
+  .post-title{
+    font-size: 20px;
+  }
+  </style>
 </head>

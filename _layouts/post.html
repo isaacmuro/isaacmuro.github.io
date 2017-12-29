@@ -19,7 +19,23 @@ comments: true
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+  {% if page.category %}
+  Category:
+  <div class="tags-expo-list">
+    <a href="/blog/category/#{{ page.category | slugify }}" class="post-tag">{{ page.category }}</a>
 
+  </div>
+  {% endif %}
+  {% if page.tags %}
+  Tags:
+  <div class="tags-expo-list">
+    {% for x in page.tags %}
+    <a href="#{{ x[0] }}" class="post-tag">{{ x[0] }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <hr style="margin: 1.5rem 0;" />
   {% include disqus_comments.html %}
 
 </article>
