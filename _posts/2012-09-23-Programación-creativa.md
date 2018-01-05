@@ -24,6 +24,6 @@ Los alumnos, al tener un usuario final y al participar en un proyecto real y soc
 
 Os dejo con el bueno de Ben...
 
-{% include youtubePlayer.html id=6J9vfcW3e8Q %}
+{% include youtubePlayer.html id="6J9vfcW3e8Q" %}
 
 Os iré informando como acaba mi proyecto.
