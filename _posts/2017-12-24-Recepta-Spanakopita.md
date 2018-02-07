@@ -13,7 +13,7 @@ Aquest és el meu primer post en aquest blog. Els altres posts els he recuperat 
 
 ### Ingredients
 
-* Molt Espinac
+* 500 grams d'espinac
 * 2 culleres Fonoll
 * 2 culleres Julivert
 * 2 culleres api
@@ -45,9 +45,3 @@ Aquest és el meu primer post en aquest blog. Els altres posts els he recuperat 
 12. Tallar en vertical les tres capes de sobre. Cada tall amb una separació de 6 centímetres.
 ![Contingut](/assets/img/spanakopita/rajesalcontingut.jpg)
 13. Per sobre, li posarem una mica d'aigua. Ho posarem al forn 1 hora a 200 graus.
-
-# Markdown
-
-[Markdown PDF](http://packetlife.net/media/library/16/Markdown.pdf)
-
-[Markdown PDF 2](https://learn.getgrav.org/content/markdown)
