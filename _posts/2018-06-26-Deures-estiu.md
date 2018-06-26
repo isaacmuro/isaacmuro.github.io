@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "deures d'estiu"
-table:true;
+table: true
 date: 2018-06-26
 comments: true
 category: deures
