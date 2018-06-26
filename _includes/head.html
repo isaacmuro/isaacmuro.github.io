@@ -11,7 +11,9 @@
   {% endif %}
   {% if page.table == true %}
     <script type="text/javascript">
-      $( "table" ).addClass( "table table-striped" );
+      $(document).ready(function () {
+        $( "table" ).addClass( "table table-striped" );
+    }); 
     </script>
   {% endif %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
