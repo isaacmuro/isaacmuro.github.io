@@ -9,6 +9,11 @@
   {% if page.p5js == true %}
     <script src="/css/p5.min.js"></script>
   {% endif %}
+  {% if page.table == true %}
+    <script type="text/javascript">
+      $( "table" ).addClass( "table table-striped" );
+    </script>
+  {% endif %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <style>
   .space{
