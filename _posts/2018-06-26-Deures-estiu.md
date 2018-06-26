@@ -6,13 +6,14 @@ comments: true
 category: deures
 tags: [desures, estiu]
 ---
+
+Ha arribat el moment de decidir si posem deures o no, i a qui. Seguint l'exemple del [Jordi Domenech](https://twitter.com/jdomenechca) amb la [seva alternativa de deures d'estiu per ciències](https://blogcienciesnaturals.wordpress.com/2014/06/11/una-proposta-alternativa-de-deures-destiu/), he fet la meva versió per matemàtiques. Jo l'utilitzaré per primer i tercer de la ESO. 
+
 <script type="text/javascript">
  $( "table" ).addClass( "table table-striped" );
 </script>
 });
 </script>
-
-Ha arribat el moment de decidir si posem deures o no, i a qui. Seguint l'exemple del [Jordi Domenech](https://twitter.com/jdomenechca) amb la [seva alternativa de deures d'estiu per ciències](https://blogcienciesnaturals.wordpress.com/2014/06/11/una-proposta-alternativa-de-deures-destiu/), he fet la meva versió per matemàtiques. Jo l'utilitzaré per primer i tercer de la ESO. 
 
 He versionat les seves propostes per l'assignatura de matemàtiques, i n'he afegit 6 més. 
 
