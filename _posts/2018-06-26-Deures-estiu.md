@@ -12,8 +12,7 @@ Ha arribat el moment de decidir si posem deures o no, i a qui. Seguint l'exemple
 <script type="text/javascript">
  $( "table" ).addClass( "table table-striped" );
 </script>
-});
-</script>
+
 
 He versionat les seves propostes per l'assignatura de matemàtiques, i n'he afegit 6 més. 
 
