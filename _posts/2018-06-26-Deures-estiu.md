@@ -14,7 +14,7 @@ Les activitats resultants són una versió de les seves activitats més 6 activi
 
 Al final de l'article, teniu els links de descarrega. Sense més espera, aquí les activitats proposades.  
 
-|   | ACTIVITATS| COM ACREDITAR-LA |
+|   | ACTIVITtATS| COM ACREDITAR-LA |
 |---|---------------|-------------|
 |   | Visita el mòdul d’estadística i probabilitat al  **Museu de Matemàtiques de Catalunya**, de Cornellà. | Presentar el ticket de l’entrada i escriure un article periodístic com si anunciessis la inauguració de l’exposició. L’article ha de tenir una extensió de 20 línies dels aspectes que tenen relació amb el que hem treballat a la matèria. Incloure una fotografia on surtis tu (i se’t pugui identificar) davant l’element del museu que hagis trobat més interessant. |
 |   | Crear un compte de Twitter, i: 1)  **Twittejar 100 notícies matemàtiques d’actualitat que tinguin relació amb la matèria**, fent atenció a usar #hashtags que identifiquin els termes relacionats amb les matemàtiques. Com a mínim 100 tweets. Els tweets han de ser repartits al llarg de l’estiu, no es poden fer més de 25 tweets a la setmana. No compten els retweets. 2) **Fer-se seguidor (Follower) de 20 usuaris** que publiquin tweets sobre matemàtiques.| Presentar el nom del compte de Twitter @, amb un darrer tweet que digui “Deures estiu Ins Marta Estrada” i les teves inicials.  |
