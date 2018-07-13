@@ -1,0 +1,88 @@
+# Home
+
+## Introducció
+
+Hi han creences populars que no sabem si són certes o no. Una molt extesa és que durant la lluna plena hi han més naixements. És a dir, que la lluna influeix en la quantitat de naixements als hospitals. Els alumnes hauran de demostrar si aquesta creença és un fet o un mite.
+
+Per a demostrar-ho utilitzant l'estadística, l'àlgebra, el mètode científic, els fulls de càlcul, i software d'astronomia.
+
+El projecte Babies And The Moon és un projecte PBL que parteix d'una pregunta guia:
+
+* `És veritat que neixen més nadons quan hi ha lluna plena?`
+* `Hi han més naiements en lluna plena?`
+
+## Productes
+
+- Per una part es respon a la pregunta guia mitjançant un estudi estadístic de les dates de naixement dels instituts de Granollers, i verificant o no la hipòtesis creada al principi del projecte.
+- Els alumnes realitzen unes enquestes on pregunten sobre la pregunta guia per comprovar quin sector demogràfic té més fer si el fet o el mite (encara no ho sabem) té més arrelament
+
+## Comencem
+
+Formació d'equips: Fareu parelles de dos companys.
+
+
+
+### Commands
+
+* `mkdocs new [dir-name]` - Create a new project.
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs help` - Print this help message.
+
+### Project layout
+
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.
+
+# About
+
+## Multo hoste cui respiciens
+
+### Deprensa Aurora eludere proles contra videntur aut
+
+Lorem markdownum inter precatur dubitare nomen. Artus et velles et leviter
+vixque solutis quaerenti annis.
+
+- Virum patrem prendere telis fallere
+- Non verba paterni in tibi laevae ducem
+- Lata hoc vota gravis quibus qui dabo
+- Orantem miserere hinc
+- Quoque canes relinquit
+- Simul anima
+
+Vipereis deflentem [frustraque enim](http://bella.io/) Colchide *situ dracone
+est* in caelestum adhuc Phrygii, verba imo armaque locis. *Icta furiosior*
+honor, haec exhalarunt sponsi sanguine tempore desint ponit. Tinguit inmensos
+flumen Achillis procos, iuvenis, corpore est. Sua apertum doleret altera.
+**Funera belua esse** concussa.
+
+1. Illic magis
+2. Heros omnia Epidaurius flamma
+3. Pedum sacra murmure et
+
+### Intra cum smaragdis de Morphea urbes
+
+Isdem quodque videndo et feror iubemur quondam? Quod fuga subit adducto dolores,
+nitens timor se obstabat factum tellus frigus rogant, Oresteae inportuna et
+ignoto.
+
+> **Graium** iungitur pulchra mihi: dum murmur ferret secutus in excutit ferox
+> hic amore, sive infuso! Plus te sinuantur, vipereis sua tunc laedar adversas
+> ignes tangit herba faventibus abiit.
+
+Veneris mota ipsi poena mox venturis quattuor cassis **in horto caliginis**
+pugnant exhortor. Si nunc, rident puto *deam*, ora mare aliquid nullo cum
+etiamnum sparsos, stricto et. Sacrificos sanesque relinquam manemus campus
+auctaque Philemon faciem casus satus aliquod edidit superi. Cognitius abstinet
+Anguemque vellet, quicquam obruta rubore cadunt summo invita, arsit iniqua;
+recordor. Posuisset vulnere sagittis torvae; virgo *Stygio tum pater* frenis
+despectare quietis.
+
+Invitaque super primo mutat deponendique fecit; flexile timerent fecit
+confusaque mandarat nisi muneris ad. Traderet Philomela utinamque per ore
+cornuaque vidit. Deus corpus et me rustice, hac fixo contemnere nisi adiecerit
+sic quam despicit. Opto coeunt pudore et aequora inpiger corpora relinquant
+audax, Persephones. Quibus mihi.
+
