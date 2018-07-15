@@ -1,5 +1,5 @@
 site_name: Babies and The Moon
 pages:
    - Home: index.md
-   - About: about.md
+   - Fases: fases.md
 theme: readthedocs
