@@ -7,7 +7,7 @@ title: "Projectes"
 
 <div class="space"/>
 <div class="row">
-  {% include cards.html link="https://sites.google.com/a/xtec.cat/curtcircuit/" src="/assets/img/babiesandthemoon.jpg" title="Babies And The Moon" text="Utilitzant el mètode científic, respondre a la pregunta: 'Hi ha més naixements durant la lluna plena?'." footer="Portat a l'aula!" %}
+  {% include cards.html link="/docs/babiesandthemoon/" src="/assets/img/babiesandthemoon.jpg" title="Babies And The Moon" text="Utilitzant el mètode científic, respondre a la pregunta: 'Hi ha més naixements durant la lluna plena?'." footer="Portat a l'aula!" %}
 
   
 </div>
