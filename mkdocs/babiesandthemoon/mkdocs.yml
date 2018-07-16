@@ -1,5 +1,15 @@
 site_name: Babies and The Moon
 pages:
    - Home: index.md
-   - Fases: fases.md
+   - Fase 0 Previ: fase0.md
+   - Fase 1 Característiques de la Lluna: fase1.md
+   - Fase 2 Enquesta: fase2.md
+   - Fase 3 Càlcul de les fases de la lluna: fase3.md
+   - Fase 4 Resultats de les enquestes: fase4.md
+   - Fase 5 Producte Pecha Kucha: fase5.md
+   - Llicència: sobre.md
+
 theme: readthedocs
+
+extra_javascript:
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML

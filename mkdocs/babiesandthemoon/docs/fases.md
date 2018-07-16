@@ -68,21 +68,18 @@ Existeixen diferents tipus d'enquestes. Enquestes poblacionals o enquestes mostr
 La vostra enquesta haurà d'estar feta en [Google Forms](drive.google.com). Utilitzarem un tipus d'enquesta d'una mostra aleatòria de persones que han de complir unes condicions. 
 
 Exemple d'enquesta: 
-(TO DO: FER TAULA!!!!!!! )
 
-* Data de naixement: 
+| Nombre | Pregunta | 
+| ------ |----------|
+| 1 | Data de naixement   |
+| 2 | Sexe: Home [  ] Dona [  ]   |
+| 3 | Hi ha alguna relació entre el nombre de naixements i la fase lunar? Sí [  ]  No [  ]   |
+| 4 | En quina fase crees que hi ha més naixements? Lluna nova, Lluna nova visible, Quart creixent, Lluna gibosa creixent, Lluna plena, Lluna gibosa minvant, Quart minvant, Lluna minvant, Lluna nova....   |
+| 5 | Per què penses això?   |
 
-* Sexe: Home [  ] Dona [  ]
 
-* Hi ha alguna relació entre el nombre de naixements i la fase lunar? Sí [  ]  No [  ]
 
-* En quina fase crees que hi ha més naixements? Lluna nova, Lluna nova visible, Quart creixent, Lluna gibosa creixent, Lluna plena, Lluna gibosa minvant, Quart minvant, Lluna minvant, Lluna nova.... 
-
-* Per què penses això?
-
-En l'enquesta, ha d'aparèixer, una pregunta per la data de naixement i el sexe de la persona.
-
-L'enquesta serà un document LibreOffice Write on han d'estar com a mínim les preguntes que es demanen. En l'enquesta, haureu d'incloure una pregunta més per determinar si influeix algun altre factor. Com per exemple, si fan o no esport, nivel d'estudis, etc. 
+L'enquesta serà un document LibreOffice Write on han d'estar com a mínim les preguntes que es demanen. En l'enquesta, haureu d'incloure una pregunta més per determinar si influeix algun altre factor. Com per exemple, si fan o no esport, nivel d'estudis, etc. (Aquests dos exemples no es poden utilitzar!).
 
 ## Mostra poblacional de l'enquesta
 
@@ -99,11 +96,14 @@ Pregunta: 1-4-N: Com podem mesurar la nostra altura de la forma més exacte? Int
 * L'altura del vostre mèlic desde el terra. 
 
 Veure'm la relació que hi ha entre aquestes dues mesures, i un nombre molt important per les matemàtiques. 
+(Treballar aquí les mitjanes, mitja, ...)
 
 [Full de Càlcul Mostra](ods/Altures.ods)
 
 Després utilitzarem totes les dates de naixement de l'institut per calcular quins dies de la setmana i quins mesos han nascut més alumnat. 
-[Taula de Freqüències](ods/TaulesFrequencies.ods)
+
+* [Taula de Freqüències](ods/TaulesFrequencies.ods)
+* [Presentació sobre gràfics](ods/grafics2.odp)
 
 ### Fòrmules que necessitarem:
 
@@ -152,21 +152,46 @@ El nombre que ens queda és la fase de la Lluna que ens interessa.
 
 [Algorisme Fases Lluna](ods/LunarCycle.ods)
 
-**A7:** `Utilitzant alguna de les dades que teniu just a sota, trobeu les seves fases de la lluna, realitzeu les taules de freqüència, i `
+**A7:** `Utilitzant alguna de les dades que teniu just a sota, trobeu les seves fases de la lluna, realitzeu les taules de freqüència, i els gràfics`
+
 1. Dades de la classe
-2. Dades de l'institut
-3. Dades de tots els instituts de Granollers
-4. Dades de tota Catalunya
+2. [Dades de l'institut](ods/MartaEstrada20172018.ods)
+3. [Dades de tots els instituts de Granollers](ods/InstitutsGranollers20172018.ods)
+4. [Dades de tota Catalunya](ods/Catalunya19852015.xls)
 
 **A8:** `Escriviu una conclusió a partir de les vostres dades. S'ha complert la vostra hipotesis. Per què? Que us indiquen les dades i les gràfiques que heu realitzat? `
 
-# FASE X: Resultats de les enquestes
+# FASE 4: Resultats de les enquestes
 
-Donar les taules per a que les omplin. 
+Les enquestes que vau fer ens poden ajudar a trobar alguna relació entre les opinions de la gent i les seves costums, aficions. És una persona que té un gos, més creien que és un mite o un fet respecte del total?
 
-# FASE X: Pecha Kucha
+Aquestes relacions que podreu trobar són relacions dèbils. És a dir, que només hem trobat un indicador que ens diu que estan relacionades les dues dades. Hauriem de fer més investigacions i més estadística per poder corraborar que una dada està relacionada amb l'altre. 
+
+Per fer això, haureu d'extreure les dades de les enquestes. Aquestes dades les haureu de treballar com hem fet fins ara, fent les seves taules de freqüencia. 
+
+us deixo [aquí](ods/TaulesEnquestes.pdf) les taules que haureu de crear amb les vostres estadístiques. Aneu creant les taules de freqüència i les gràfiques una a sota de l'altre, en el mateix full de càlcul. Poseu títol a cada taula i gràfic. 
+
+**A9:** `Haureu d'entregar aquest full de càlcul amb les dades omplertes i un document de text, explicant les vostres conclusions sobre les opinions de la gent.`
+
+# FASE 5: Pecha Kucha
+
+Què és un [Pecha Kucha](https://www.youtube.com/watch?v=M3F1h_BbUx0)?
+
+## Recursos per crear un Pecha Kucha
+
+Us passo una sèrie de recursos per a què pugueu muntar els vostres Pecha Kuchas!!!
+
+Imatges:
+
+* [10 diferentes buscadores de imagenes gratuitas](https://wwwhatsnew.com/2014/05/30/10-excelentes-buscadores-imagenes-gratuitas/)
+* [Open Clipart](https://openclipart.org/)
+* [Creative Commons](https://search.creativecommons.org/)
+* [12 best places to get free images](http://www.techradar.com/news/internet/web/12-best-places-to-get-free-images-for-your-site-624818)
+
+## Entrega
 
 Ha de contenir com a mínim:
+
 * Introducció
 * La pregunta guia
 * Resultats de l'opinió de la gent
@@ -174,3 +199,9 @@ Ha de contenir com a mínim:
 * Hipotesis
 * Experiment
 * Conclusions
+
+**A10:** `Entrega del Pecha Kucha`
+
+La presentació del Pecha Kucha serà gravada. Pujaré els videos de forma privada i els compartiré només amb vosaltres. Quan els hagueu vist, haureu d'entregar un document amb les 5 aspectes que més t'han agradat de la teva presentació, i els 5 aspectes que menys. En el moment en què entregueu el document, despenjaré els videos. 
+
+TODO:  MathJax, geogebra, script per crear la documentació. Rúbriques de les activitats. 
