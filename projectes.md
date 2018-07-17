@@ -1,4 +1,4 @@
-mkdocs ---
+---
 layout: page
 title: "Projectes"
 ---
