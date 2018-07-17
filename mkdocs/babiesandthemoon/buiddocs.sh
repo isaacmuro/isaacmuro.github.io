@@ -3,7 +3,7 @@
 #Script per Crear la documentació estàtica i pujar a Git.
 
 # Variables
-DIR=~/git/isaacmur.github.io
+DIR=~/git/isaacmuro.github.io
 
 #Building Babies And The Moon site
 echo 'Building Babies.......'

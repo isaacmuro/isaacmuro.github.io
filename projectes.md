@@ -9,9 +9,10 @@ title: "Projectes"
 <div class="row">
   {% include cards.html link="/docs/babiesandthemoon/" src="/assets/img/babiesandthemoon.jpg" title="Babies And The Moon" text="Utilitzant el mètode científic, respondre a la pregunta: 'Hi ha més naixements durant la lluna plena?'." footer="Portat a l'aula!" %}
 
+  {% include cards.html link="/docs/Clepsidra.pdf" src="/assets/img/clepsidra.jpg" title="Clepsidra" text="Modelització matemàtica amb rellotges grecs." footer="Portat a l'aula!" %}
+
   
 </div>
-
 <hr />
 
 
