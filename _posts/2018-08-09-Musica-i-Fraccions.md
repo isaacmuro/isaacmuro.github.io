@@ -8,9 +8,11 @@ category: fraccions
 tags: [matematiques, fraccions, musica, grafics, compas]
 ---
 
-Estic preparant un petit projecte a mates 1r de la ESO per a què l'alumnat treballi les fraccions i els enters amb música. Les fraccions amb el ritme i els enters amb els intervals. No tinc gaire clar quin serà el producte final. Estic pensant en què hagin de programar (amb [Sonic Pi](https://sonic-pi.net/)) el ritme i la melodia d'una canço que a ells els hi agradi i tinguin la partitura, i per això necessiten conèixer el ritme en fraccions i els enters per la melodia.  
+Estic preparant un petit projecte a mates 1r de la ESO per a què l'alumnat treballi les fraccions i els enters amb música. Les fraccions amb el ritme i els enters amb els intervals. No tinc gaire clar quin serà el producte final. Estic pensant en què hagin de programar (amb [Sonic Pi](https://sonic-pi.net/)) el ritme i la melodia d'una canço que a ells els hi agradi i tinguin la partitura, i per això necessiten conèixer el ritme en fraccions i els enters per la melodia.
 
-La primera part del projecte és la relacionada amb les fraccions. L'alumnat haurà d'identificar les fraccions que representen les notes musicals. 
+Els objectius seran varis: Identificar les fraccions a les figures musicals. Comprovar que la suma de les figures musicals dona el total del compas. Reconeixer si un compas està ben format rítmicament utilitzant les fraccions. 
+
+La primera part del projecte és la relacionada amb les fraccions. L'alumnat haurà d'identificar les fraccions que representen les figures musicals. 
 
 Les figures musicals més conegudes són aquestes: 
 
@@ -55,4 +57,3 @@ Resum:
 
 Espero haver-me explicat millor que al twitter.Que en penseu? Crec que utilitzaré la pulsació com a unitat. Ens dona més possibilitats, i és més intuitiu. 
 
-Per deixar les coses clares: No em considero músic ni matemàtic ;) Segur que utilitzo paraules que no toquen. Digueu-m'ho. 
