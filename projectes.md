@@ -3,7 +3,18 @@ layout: page
 title: "Projectes"
 ---
 
-#### Llista de projectes 3r Matemàtiques
+En aquesta pàgina recullo una llista dels projectes que he anat portant a l'aula o que he dissenyat. Alguns els he modificat dels originals, però si els he penjat aquí és perquè els hi he canviat alguna cosa. Feu-los vostres!
+
+#### Projectes 1r Matemàtiques
+
+<div class="space"/>
+<div class="row">
+  {% include cards.html link="/docs/GuiaTriangulando.pdf" src="/assets/img/fletxa3.jpg" title="Triangulando voy" text="Podem arribar a saber on ha estat feta la fotografia?" footer="Portat a l'aula!" %}
+
+</div>
+<hr />
+
+#### Projectes 3r Matemàtiques
 
 <div class="space"/>
 <div class="row">
@@ -11,7 +22,7 @@ title: "Projectes"
 
   {% include cards.html link="/docs/Clepsidra.pdf" src="/assets/img/clepsidra.jpg" title="Clepsidra" text="Modelització matemàtica amb rellotges grecs." footer="Portat a l'aula!" %}
 
-  
+
 </div>
 <hr />
 
