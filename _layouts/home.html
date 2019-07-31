@@ -2,25 +2,58 @@
 layout: default
 ---
 
-<div class="home">
+<main role="main">
+  <section class="text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Benvinguts</h1>
+        <p class="lead text-muted">Aquesta pàgina és un recull de recursos i experiències.</p>
+      </div>
+  </section>
 
-  {{ content }}
-
-  <h3>Posts</h3>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/blog/atom.xml" | relative_url }}">via RSS</a></p>
-
-</div>
+  <div class="album py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="/blog">
+              <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225"  preserveAspectRatio="xMidYMid slice" focusable="false" src="/assets/img/home/checklist.svg"></img>
+                <div class="card-body">
+                  <p class="card-text">Blog</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="/about">
+              <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225"  preserveAspectRatio="xMidYMid slice" focusable="false" src="/assets/img/home/ninja.svg"></img>
+                <div class="card-body">
+                  <p class="card-text">About</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="/projectes">
+              <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225"  preserveAspectRatio="xMidYMid slice" focusable="false" src="/assets/img/home/video.svg"></img>
+                <div class="card-body">
+                  <p class="card-text">Projectes</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="/portafoli">
+              <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225"  preserveAspectRatio="xMidYMid slice" focusable="false" src="/assets/img/home/polaroid.svg"></img>
+                <div class="card-body">
+                  <p class="card-text">Portafoli</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
