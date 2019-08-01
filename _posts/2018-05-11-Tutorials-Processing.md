@@ -3,7 +3,7 @@ layout: post
 title: "Tutorials Processing"
 date: 2018-05-11
 comments: true
-category: programación, processing, revealjs
+categories: [programación, processing, revealjs]
 tags: [processing]
 ---
 Des de fa temps estic utilitzant unes presentacions interactives que m'agradaria compartir perquè crec que poden interessar.

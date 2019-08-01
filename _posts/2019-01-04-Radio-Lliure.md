@@ -3,7 +3,7 @@ layout: post
 title: "Proposta de programes per fer una radio a l'institut"
 date: 2019-01-04
 comments: true
-category: software
+categories: [software]
 tags: [radio, open source, software]
 ---
 

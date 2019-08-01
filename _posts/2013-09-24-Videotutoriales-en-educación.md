@@ -3,7 +3,7 @@ layout: post
 title: "Videotutoriales en educación"
 date: 2013-09-24
 comments: true
-category: Videotutoriales
+categories: [Videotutoriales]
 tags: [online, software libre, videotutorial, vimeo, youtube]
 ---
 

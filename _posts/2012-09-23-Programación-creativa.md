@@ -3,7 +3,7 @@ layout: post
 title: "Programación creativa"
 date: 2012-09-23
 comments: true
-category: programación
+categories: [programación]
 tags: [processing, benchun, pbl]
 ---
 

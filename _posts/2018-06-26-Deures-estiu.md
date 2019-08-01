@@ -4,13 +4,13 @@ title: "Deures d'estiu"
 table: true
 date: 2018-06-26
 comments: true
-category: deures
+categories: [deures]
 tags: [deures, estiu]
 ---
 
 Ha arribat el moment de decidir si posem deures o no, i a qui. Seguint l'exemple del [Jordi Domenech](https://twitter.com/jdomenechca) amb la [seva alternativa de deures d'estiu per ciències](https://blogcienciesnaturals.wordpress.com/2014/06/11/una-proposta-alternativa-de-deures-destiu/), he fet la meva versió per matemàtiques. Com m'agrada donar-li una volta a la feina dels demés i compartir-la. Aquestes activitats seran pels grups de primer i tercer de la ESO.
 
-Les activitats resultants són una versió de les seves activitats més 7 activitats que he pensat més relacionades amb les matemàtiques. 
+Les activitats resultants són una versió de les seves activitats més 7 activitats que he pensat més relacionades amb les matemàtiques.
 
 Al final de l'article, teniu els links de descarrega. Sense més espera, aquí les activitats proposades.  
 
@@ -32,4 +32,3 @@ Al final de l'article, teniu els links de descarrega. Sense més espera, aquí l
 
 [Versió ODT](https://isaacmuro.github.io/assets/DeuresMates.odt)
 [Versió PDF](https://isaacmuro.github.io/assets/DeuresMates.pdf)
-

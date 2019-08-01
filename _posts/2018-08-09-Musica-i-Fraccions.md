@@ -4,7 +4,7 @@ title: "Música i fraccions"
 table: true
 date: 2018-08-09
 comments: true
-category: fraccions
+categories: [fraccions]
 tags: [matematiques, fraccions, musica, grafics, compas]
 ---
 

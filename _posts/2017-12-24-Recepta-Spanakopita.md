@@ -3,7 +3,7 @@ layout: post
 title: "La recepta de la spanakopita"
 date: 2017-12-24
 comments: true
-category: receptes
+categories: [receptes]
 tags: [spanakopita, greece, feta, espinacs, pita]
 ---
 

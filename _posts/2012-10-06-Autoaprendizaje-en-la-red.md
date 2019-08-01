@@ -3,7 +3,7 @@ layout: post
 title: "Autoaprendizaje en la red"
 date: 2012-10-06
 comments: true
-category: Formación
+categories: [Formación]
 tags: [coursera, courses, khan academy, online]
 ---
 

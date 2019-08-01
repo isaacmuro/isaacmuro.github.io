@@ -3,7 +3,7 @@ layout: post
 title: "Open Hardware - Clone Wars"
 date: 2014-07-15
 comments: true
-category: impressores 3d
+categories: [impressores 3d]
 tags: [clone wars, impressores 3d]
 ---
 Fa ja un any i pico que vaig començar l'aventura de construir-me la meva pròpia impressora 3D. Buscant per internet vaig trobar [Clone Wars](http://www.reprap.org/wiki/Proyecto_Clone_Wars), una fantàstica comunitat on podia realitzar aquest repte.
