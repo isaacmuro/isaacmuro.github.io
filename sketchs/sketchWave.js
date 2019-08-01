@@ -11,11 +11,11 @@ function setup() {
 }
 
 function draw() {
-  background("#242949");
-  textAlign(CENTER);
-  textSize(98);
-  fill(255);
-  text('Gitlab Now!', width/2, height/2);
+  background("#FFFFFF");
+  //textAlign(CENTER);
+  //textSize(98);
+  //fill(255);
+  //text('Gitlab Now!', width/2, height/2);
   translate(width/2, height/2); // translate 0,0 to center
 
   t = frameCount/parseFloat(maxFrameCount);

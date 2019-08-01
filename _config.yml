@@ -5,9 +5,9 @@ description: > # this means to ignore newlines until "baseurl:"
   M'autogestiono quan puc. La meva pàgina personal per reunir moltes coses disperses per internet,
   que poc a poc aniré reunint aquí, per tenir-les també al meu ordinador.
   Pàgina creada amb jekyll i github pages.
-source_code: https://github.com/isaacmuro/isaacmuro.github.io
+source_code: https://gitlab.com/isaacmg/isaacmg.gitlab.io
 twitter_username: willezumleben
-github_username:  isaacmuro
+gitlab_username:  isaacmg
 paginate: 5
 paginate_path: "/blog/page:num/"
 plugins_dir:
