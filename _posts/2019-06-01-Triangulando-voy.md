@@ -45,3 +45,7 @@ Us deixo amb unes fotos dels alumnes trencant-se el cap resolen el problema.
 ![Contingut](/assets/img/photostriangulando/proporcions.jpg){:height="400px"}
 
 ![Contingut](/assets/img/photostriangulando/regla.jpg){:height="400px"}
+
+També podreu veure el resultat final de la segona part del projecte.
+
+![Contingut](/assets/img/photostriangulando/senyal.jpg){:height="400px"}
