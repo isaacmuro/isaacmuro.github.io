@@ -2,7 +2,7 @@
 layout: post
 title: "Triangulando voy"
 table: true
-date: 2019-02-19
+date: 2019-06-01
 comments: true
 categories: [projectes]
 tags: [matemàtiques, triangulació, topografia]
