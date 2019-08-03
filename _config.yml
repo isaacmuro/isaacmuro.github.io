@@ -14,7 +14,7 @@ plugins_dir:
   - jekyll-sitemap
   - jekyll-paginate
 
-disqus.shortname: https://isaacmuro-github-io
+disqus.shortname: isaacmg-gitlab-io
 
 permalink: /blog/:year/:month/:day/:title
 # Minima date format
