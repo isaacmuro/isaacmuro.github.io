@@ -5,6 +5,8 @@ title: "Projectes"
 
 En aquesta pàgina recullo una llista dels projectes que he anat portant a l'aula o que he dissenyat. Alguns els he modificat dels originals, però si els he penjat aquí és perquè els hi he canviat alguna cosa. Feu-los vostres!
 
+Els projectes globalitzats estan [aquí](/globalitzats).
+
 #### Projectes 1r Matemàtiques
 
 <div class="space"/>
