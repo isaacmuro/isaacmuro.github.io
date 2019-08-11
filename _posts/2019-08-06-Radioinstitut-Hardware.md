@@ -2,6 +2,10 @@
 layout: post
 title: "Radio a l'institut S01E01 - Basic Hardware"
 table: true
+date: 2019-08-06
+comments: true
+categories: [radio]
+tags: [radio, hardware, audio]
 ---
 
 Per començar, es necessitarà un espai on deixar el material, accés a l'electricitat, i connexió a internet.

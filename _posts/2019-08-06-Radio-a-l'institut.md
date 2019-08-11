@@ -2,8 +2,9 @@
 layout: post
 title: "Radio a l'institut - La Serie"
 categories: [radio]
-tags: [radio, hardware, software, streaming,]
-
+tags: [radio, hardware, software, streaming]
+date: 2019-08-06
+comments: true
 ---
 
 ## Sinopsis
