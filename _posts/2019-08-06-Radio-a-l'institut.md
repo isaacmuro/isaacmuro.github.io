@@ -21,7 +21,7 @@ El projecte de la Radio a l'institut Marta Estrada va resultar un èxit en la im
 
 * Primera part: [**Hardware (material necessari)**](/blog/2019/08/06/Radioinstitut-Hardware)
 
-* Segona part: **Com fer que funcioni la taula de mescles**
+* Segona part: [**Com fer que funcioni la taula de mescles**](/blog/2019/08/11/Radioinstitut-taula-de-mescles)
 
 * Tercera part: **Software a l'ordinador - Linkat Radio**
 
