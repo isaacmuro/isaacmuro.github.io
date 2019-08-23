@@ -15,7 +15,7 @@ Les eines actuals fan que es pugui tenir una gran qualitat de so i distribució 
 
 Amb aquests articles, intento donar consells per poder montar una radio a l'institut/escola i conèixer quins poden ser els problemes que es poden tenir.
 
-El projecte de la Radio a l'institut Marta Estrada va resultar un èxit en la implicació dels alumnes i en tot el temps que li van dedicar.
+El projecte de la Radio a l'institut Marta Estrada va resultar un èxit en la implicació dels alumnes i en tot el temps que li van dedicar. Podeu trobar la pàgina de la radio [aquí](http://radio.insmartaestrada.cat)
 
 ## Títols dels episodis
 
@@ -23,8 +23,8 @@ El projecte de la Radio a l'institut Marta Estrada va resultar un èxit en la im
 
 * Segona part: [**Com fer que funcioni la taula de mescles**](/blog/2019/08/11/Radioinstitut-taula-de-mescles)
 
-* Tercera part: **Software a l'ordinador - Linkat Radio**
+* Tercera part: [**Software a l'ordinador - Linkat Radio**](/blog/2019/08/22/Linkat-Radio)
 
-* Quarta part: **Emissió en directe, giss.tv**
+* Quarta part: [**Emissió en directe, giss.tv**](/blog/2019/08/23/Emissio-en-directe)
 
-* Cinquena part: **Documents creats pel projecte**
+* Cinquena part: [**Documents creats pel projecte**](/blog/2019/08/23/Documents-utilitzats)
