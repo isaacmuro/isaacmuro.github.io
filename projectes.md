@@ -13,7 +13,7 @@ Els projectes globalitzats estan [aquí](/globalitzats).
 <div class="row">
   {% include cards.html link="/docs/GuiaTriangulando.pdf" src="/assets/img/fletxa3.jpg" title="Triangulando voy" text="Podem arribar a saber on ha estat feta la fotografia?" footer="Portat a l'aula!" %}
 
-  {% include cards.html link="/docs/fallin.pdf" src="/assets/img/falling.jpg" title="Fallin" text="Projecte sobre Caiguda Lliure" footer="Portat a l'aula!" %}
+  {% include cards.html link="/docs/fallin.pdf" src="/assets/img/falling.png" title="Fallin" text="Projecte sobre Caiguda Lliure" footer="Portat a l'aula!" %}
 
 </div>
 <hr />
