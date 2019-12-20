@@ -7,16 +7,16 @@ En aquesta pàgina recullo una llista dels projectes que he anat portant a l'aul
 
 Els projectes globalitzats estan [aquí](/globalitzats).
 
-#### Projectes 1r Matemàtiques
+#### Projectes Matemàtiques
 
 <div class="space"/>
 <div class="row">
   {% include cards.html link="/docs/GuiaTriangulando.pdf" src="/assets/img/fletxa3.jpg" title="Triangulando voy" text="Podem arribar a saber on ha estat feta la fotografia?" footer="Portat a l'aula!" %}
 
+  {% include cards.html link="/docs/fallin.pdf" src="/assets/img/falling.jpg" title="Fallin" text="Projecte sobre Caiguda Lliure" footer="Portat a l'aula!" %}
+
 </div>
 <hr />
-
-#### Projectes 3r Matemàtiques
 
 <div class="space"/>
 <div class="row">
