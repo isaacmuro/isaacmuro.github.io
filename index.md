@@ -5,5 +5,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+title: Home
 ---
 ![Atenes](/assets/img/IMG_0208.JPG){:height=200px width=200px}
