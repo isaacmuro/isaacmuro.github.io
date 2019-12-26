@@ -6,7 +6,10 @@
       <p class="card-text">{{ include.text }}</p>
     </div>
     <div class="card-footer">
-        <small class="text-muted">{{ include.footer }}</small>
+        <small class="text-muted">{{ include.footer }}
+          {% if include.linkFooter %} <a href="{{include.linkFooter}}">[ODT]</a>
+          {% endif %}
+        </small>
       </div>
   </div>
 

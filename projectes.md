@@ -11,9 +11,9 @@ Els projectes globalitzats estan [aquí](/globalitzats).
 
 <div class="space"/>
 <div class="row">
-  {% include cards.html link="/docs/GuiaTriangulando.pdf" src="/assets/img/fletxa3.jpg" title="Triangulando voy" text="Podem arribar a saber on ha estat feta la fotografia?" footer="Portat a l'aula!" %}
+  {% include cards.html link="/docs/GuiaTriangulando.pdf" src="/assets/img/fletxa3.jpg" title="Triangulando voy" text="Podem arribar a saber on ha estat feta la fotografia?" footer="Portat a l'aula!"  linkFooter="/docs/odt/triangulando.odt" %}
 
-  {% include cards.html link="/docs/fallin.pdf" src="/assets/img/falling.png" title="Fallin" text="Projecte sobre Caiguda Lliure" footer="Portat a l'aula!" %}
+  {% include cards.html link="/docs/fallin.pdf" src="/assets/img/falling.png" title="Fallin" text="Projecte sobre Caiguda Lliure" footer="Portat a l'aula!" linkFooter="/docs/odt/fallin.odt" %}
 
 </div>
 <hr />
@@ -22,13 +22,11 @@ Els projectes globalitzats estan [aquí](/globalitzats).
 <div class="row">
   {% include cards.html link="/docs/babiesandthemoon/" src="/assets/img/babiesandthemoon.jpg" title="Babies And The Moon" text="Utilitzant el mètode científic, respondre a la pregunta: 'Hi ha més naixements durant la lluna plena?'." footer="Portat a l'aula!" %}
 
-  {% include cards.html link="/docs/Clepsidra.pdf" src="/assets/img/clepsidra.jpg" title="Clepsidra" text="Modelització matemàtica amb rellotges grecs." footer="Portat a l'aula!" %}
+  {% include cards.html link="/docs/Clepsidra.pdf" src="/assets/img/clepsidra.jpg" title="Clepsidra" text="Modelització matemàtica amb rellotges grecs." footer="Portat a l'aula!"  linkFooter="/docs/odt/ClepsidraFinal.odt" %}
 
 
 </div>
 <hr />
-
-
 
 #### Llista de projectes Tecnologia
 <div class="space"/>
