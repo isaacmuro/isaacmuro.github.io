@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Pajaritos</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<script src="js/p5.min.js"></script>
+	<script src="js/p5.vida.min.js"></script>
+	<script src="js/webm-writer-0.2.4.js"></script>
+	<script src="js/download.js"></script>
+	<script src="js/moment.min.js"></script>
+	<script type="text/javascript" src="pajaritos.js"></script>
+
+</head>
+<body>
+		<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom box-shadow">
+			<h5 class="my-0 mr-md-auto font-weight-normal">Pajaritos</h5>
+			<nav class="my-2 my-md-0 mr-md-3">
+				<span class="p-2  text-dark" id="background" data-toogle="tooltip"  data-placement="bottom" title="Quan apretis aquest botó, tindràs 3 segons per enregistrar el fons."><a  href="#">Background</a></span>
+				<span class="p-2  text-dark" id="start" data-toogle="tooltip"  data-placement="bottom" title="Prema per començar a enregistrar."><a id="startA" href="#">Start</a></span>
+				<span class="p-2  text-dark" id="fullscreen" data-toogle="tooltip"  data-placement="bottom" title="Per tornar el navegador en pantalla completa."><a  href="#">Full Screen</a></span>
+<!--				<span class="p-2  text-dark" id="settings" data-toogle="tooltip"  data-placement="bottom" title="Ajustament de les propietats de l'aplicació."><a  href="#">Settings</a></span>-->
+			</nav>
+<!--
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Es
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item active" href="#">Es</a>
+				<a class="dropdown-item" href="#">En</a>
+			</div>
+-->
+		</div>
+		<!-- MODAL DE BACKGROUND-->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel" data-i18n="message-background">Background</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					Tens 3 segons per col·locar correctament el fons. Pots tornar a repetir aquest proces tantes vegades com vulguis.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- MODAL DE SETTINGS
+<div class="modal fade" id="modalSettings" tabindex="-1" role="dialog" aria-labelledby="modalSettingsLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modalSettingsLabel">Settings</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				Tens 3 segons per col·locar correctament el fons. Pots tornar a repetir aquest proces tantes vegades com vulguis.
+				<div class="row">
+				  <div class="col-sm-8">col-sm-8</div>
+				  <div class="col-sm-4">
+						<div class="d-flex justify-content-center my-4">
+	  <form class="range-field w-75">
+	    <input id="slider11" class="border-0" type="range" min="0" max="200" />
+	  </form>
+	  <span class="font-weight-bold text-primary ml-2 mt-1 valueSpan"></span>
+	</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+			</div>
+		</div>
+	</div>
+</div>
+-->
+
+	<div id="sketch-holder" style="margin: 0;display: flex;justify-content: center;" >
+  </div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function(){
+
+//dropdown-item
+//$( '.dropdown-item' ).on( 'click', function () {
+//	$( '.dropdown-item' ).removeClass( 'active' );
+//	$( this ).addClass( 'active' );
+//	$('#navbarDropdown').text($( this ).text());
+//});
+
+
+		$('#startA').hide();
+
+
+  // $('#settings').on('click',function(){
+//		 $("#modalSettings").modal('show');
+//	 });
+
+	  $('#background').on('click',function(){
+			if (recording == true){
+				// Haces lo mismo que en STOP
+				if (state==2){
+					stopRecording();
+				}
+				deleteVideo();
+				recording=false;
+				$('#startA').html("Start");
+			}
+			$("#exampleModal").modal('show');
+			setTimeout(function () {
+				chooseBackground();
+				$("#exampleModal").modal('hide');
+				$('#startA').show();
+//				$('#background').hide();
+			}, 3000);
+	  });
+
+		$('#fullscreen').on('click',function(){
+	     	let fs = fullscreen();
+		    fullscreen(!fs);
+		});
+
+		$('#startA').on('click',function(){
+			// Seguro hay backgroundCapturedFlag TRUE
+			// Seguro que no hay videoWriter
+			//Acaban de apretar a Start!!
+			if (!recording){
+				newVideo();
+				$('#startA').html("Stop");
+				recording = true;
+				if(isActive) state =2;
+			  else state = 1;
+			}
+			//Acaban de apretar Stop!!!!
+			else {
+				if (state==2){
+					stopRecording();
+				}
+				deleteVideo();
+				recording=false;
+				$('#startA').html("Start");
+			}
+		});
+	});
+	</script>
+</body>
+</html>
