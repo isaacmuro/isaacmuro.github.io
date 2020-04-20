@@ -1,4 +1,4 @@
-image: ruby:2.3
+image: ruby:latest
 
 variables:
   JEKYLL_ENV: production
@@ -6,6 +6,7 @@ variables:
   title: Isaac Muro
 
 before_script:
+  - gem install bundler
   - bundle install
 
 test:
