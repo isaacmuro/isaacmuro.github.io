@@ -1,0 +1,152 @@
+[
+   {
+    "categorie": "Interconnections",
+        "values": [
+            {
+                "value": 0,
+                "rate": "22/12/2018"
+            },
+            {
+                "value": 4,
+                "rate": "27/4/2019"
+            },
+            {
+                "value": 12,
+                "rate": "12/9/2019"
+            },
+            {
+                "value": 6,
+                "rate": "30/11/2019"
+            },
+            {
+                "value": 0,
+                "rate": "5/2/2020"
+            }
+        ]
+    },
+    {
+        "categorie": "Emociotional Results",
+        "values": [
+            {
+                "value": 1,
+                "rate": "22/12/2018"
+            },
+            {
+                "value": 21,
+                "rate": "27/4/2019"
+            },
+            {
+                "value": 13,
+                "rate": "12/9/2019"
+            },
+            {
+                "value": 18,
+                "rate": "30/11/2019"
+            },
+            {
+                "value": 6,
+                "rate": "5/2/2020"
+            }
+        ]
+    },
+    {
+        "categorie": "Sociometric Results",
+        "values": [
+            {
+                "value": 3,
+                "rate": "22/12/2018"
+            },
+            {
+                "value": 22,
+                "rate": "27/4/2019"
+            },
+            {
+                "value": 6,
+                "rate": "12/9/2019"
+            },
+            {
+                "value": 15,
+                "rate": "30/11/2019"
+            },
+            {
+                "value": 3,
+                "rate": "5/2/2020"
+            }
+        ]
+    },
+    {
+        "categorie": "Leader Results",
+        "values": [
+            {
+                "value": 12,
+                "rate": "22/12/2018"
+            },
+            {
+                "value": 7,
+                "rate": "27/4/2019"
+            },
+            {
+                "value": 18,
+                "rate": "12/9/2019"
+            },
+            {
+                "value": 13,
+                "rate": "30/11/2019"
+            },
+            {
+                "value": 6,
+                "rate": "5/2/2020"
+            }
+        ]
+    },
+    {
+        "categorie": "Incoming Results",
+        "values": [
+            {
+                "value": 6,
+                "rate": "22/12/2018"
+            },
+            {
+                "value": 15,
+                "rate": "27/4/2019"
+            },
+            {
+                "value": 9,
+                "rate": "12/9/2019"
+            },
+            {
+                "value": 12,
+                "rate": "30/11/2019"
+            },
+            {
+                "value": 3,
+                "rate": "5/2/2020"
+            }
+        ]
+    },
+    {
+        "categorie": "Rejective Results",
+        "values": [
+            {
+                "value": 6,
+                "rate": "22/12/2018"
+            },
+            {
+                "value": 6,
+                "rate": "27/4/2019"
+            },
+            {
+                "value": 6,
+                "rate": "12/9/2019"
+            },
+            {
+                "value": 2,
+                "rate": "30/11/2019"
+            },
+            {
+                "value": 3,
+                "rate": "5/2/2020"
+            }
+        ]
+    }
+]

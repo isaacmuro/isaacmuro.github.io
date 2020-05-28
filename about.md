@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+[Portafoli](/portafoli)
+
 Format com a informàtic, ara treballo de professor de matemàtiques a l'institut [Marta Estrada](https://agora.xtec.cat/institutgranollers/).
 
 He cursat el Master Universitari Formació de Professorat d'Educació Secundària Obligatòria i Batxillerat, Formació Professional i Ensenyament d'Idiomes (quin peazo de nom!). El meu treball final de màster és [aquest](http://upcommons.upc.edu/handle/2099.1/16689), Educació per al desenvolupament a la matèria de tecnologies de l'ESO (jo tampoc em quedo curt posant noms).

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script>
+var aux = false;
+var radius = 50;
+
+d3.json("forcedGraph.json").then(function(graph) {
+  var svg = d3.select("body").append("svg").attr("width", 960).attr("height", 500).attr("viewBox", "-480 -250 960 500");
+  svg.append("circle").attr("stroke","brown").attr("r",100).attr("stroke-opacity",0.5).attr("fill","none");
+  svg.append("circle").attr("stroke","brown").attr("r",50).attr("stroke-opacity",0.5).attr("fill","none");
+  svg.append("circle").attr("stroke","brown").attr("r",150).attr("stroke-opacity",0.5).attr("fill","none");
+  svg.append("circle").attr("stroke","brown").attr("r",200).attr("stroke-opacity",0.5).attr("fill","none");
+
+  svg.append("svg:defs").append("svg:marker")
+      .attr("id", "triangle")
+      .attr("viewBox", "0 -5 10 10")
+      .attr("refX", 15)
+      .attr("refY", -0.5)
+      .attr("markerWidth", 6)
+      .attr("markerHeight", 6)
+      .attr("orient", "auto")
+      .append("path")
+      .attr("stroke-width", 2)
+      .attr("d", "M0,-3L10,0L0,3")
+      .style("fill", "grey");
+
+  var g = svg.append("g");
+
+  var edges = [];
+  graph.links.forEach(function(e) {
+    var sourceNode = graph.nodes.filter(function(n) {return n.id === e.source;})[0];
+    var targetNode = graph.nodes.filter(function(n) { return n.id === e.target; })[0];
+    edges.push({source: sourceNode, target: targetNode, weight: e.weight, key: e.key});
+  });
+
+  var testKeys = d3.nest()
+      .key(function(d) { return d.key; })
+      .entries(edges);
+
+    var nodes = graph.nodes;
+
+    var links = testKeys[0].values;
+
+    links = dijkstra(nodes[5]);
+
+    var node = g.append("g").selectAll(".node")
+                .data(nodes)
+              .join("g").attr("class","node");
+
+    node.append("circle")
+         .attr("fill", function(d) { return d.sex === "F" ? "brown" : "steelblue"; })
+         .attr("stroke", "grey").attr("stroke-width", 1.5)
+         .call(function(node) { node.transition().attr("r", 8); })
+
+   node.append("text")
+       .text(function(d) { return d.node_id; })
+       .style("fill","#000")
+       .style("font-size","10px")
+       .attr("x", 10)
+       .attr("y", 0)
+
+    var link = g.append("g").attr("class", "links").attr("stroke", "grey").selectAll("line")
+                .data(links).enter().append("line").attr("stroke-width", 2).attr("marker-end", "url(#triangle)")
+                    .call(function(link) { link.transition().attr("stroke-opacity", 1); });
+
+
+/*    var simulation = d3.forceSimulation(nodes)
+        .force("charge", d3.forceManyBody())
+        .force("link", d3.forceLink(links))
+        .force("center", d3.forceCenter());
+
+    var simulation = d3.forceSimulation(nodes)
+//        .force("charge", d3.forceManyBody().strength(-200))
+        //.force("link", d3.forceLink(links).id(d => d.node_id).distance(960/9))
+        .force("r", d3.forceRadial(function(d) { return d.sex === "F" ? "brown" : "steelblue"; }))
+        .force("x", d3.forceX())
+        .force("y", d3.forceY())
+        .on("tick", ticked);
+*/
+    var simulation = d3.forceSimulation(nodes)
+        .force("charge", d3.forceCollide().radius(5))
+//        .force("r", d3.forceRadial(function(d) { return d.sex === "F" ? 100 : 200; }))
+        .force("r", d3.forceRadial(function(d) { return d.distance*radius; }))
+        .on("tick", ticked);
+
+
+    //simulation.force("link").links(links);
+
+    function ticked() {
+      link.attr("x1", function(d) { return d.source.x; })
+          .attr("y1", function(d) { return d.source.y; })
+          .attr("x2", function(d) { return d.target.x; })
+          .attr("y2", function(d) { return d.target.y; });
+
+      //node
+      //    .attr("cx", function(d) { return d.x; })
+      //    .attr("cy", function(d) { return d.y; });
+      node.attr("transform", d => `translate(${d.x}, ${d.y})`);
+
+    }
+    function dijkstra (src) {
+        var linksDijkstra = [];
+        //"weight": 1,"source": 4,"target": 10,"key": "preference"
+        source = src;
+        // Creamos una cola q
+        var q = [];
+        // Agregamos origen a la cola Q
+        source.distance = 0;
+        q.push(source);
+        // Creamos una cola para los nodos no visitados
+//        var unvisited = [];
+        // los añadimos todos excepto el src
+        nodes.forEach(function (d) {
+            if (d != src) {
+                d.distance = Infinity;
+  //              unvisited.push(d);
+                d.visited = false;
+            }
+        });
+
+        //  mientras Q no este vacío:
+        while (q.length != 0){
+          //sacamos un elemento de la cola Q llamado v
+          var v = q.shift();
+          // para cada vertice w adyacente a v en el Grafo:
+          var linksV = [];
+          links.forEach(function(link){
+            if (link.key == "preference"){
+              if ((v.id == link.source.id) || (v.id == link.target.id) ){
+                linksV.push(link);
+                if (v.id == 2){
+                  console.log("v.id:"+v.id + " link.source.id:"+link.source.id + " link.target.id: "+ link.target.id);
+                }
+              }
+            }
+          });
+
+          linksV.forEach(function(link) {
+            var w = link.target;
+            //si w no ha sido visitado:
+            if (!w.visited){
+              // marcamos como visitado w
+              w.visited = true;
+              linksDijkstra.push({weight: link.weight, source: link.source, target: link.target, key: "preference"});
+//"weight": 1,"source": 4,"target": 10,"key": "preference"
+              var dist = v.distance + 1;
+              w.distance = Math.min(dist, w.distance);
+              // insertamos w dentro de la cola Q
+              q.push(w);
+            }
+            var x = link.source;
+            //si w no ha sido visitado:
+            if (!x.visited){
+              // marcamos como visitado w
+              x.visited = true;
+              //linksDijkstra.push({weight: link.weight, source: link.source, target: link.target, key: "preference"});
+              var dist = v.distance + 1;
+              x.distance = Math.min(dist, x.distance);
+              // insertamos w dentro de la cola Q
+              q.push(x);
+            }
+
+          });
+        }
+        var aux = [];
+        nodes.forEach(function (d) {
+          var p = {id:d.id,distance:d.distance};
+          aux.push(p);
+        });
+        console.log(aux);
+
+        return linksDijkstra;
+      }
+
+}); // Cierre del json
+</script>

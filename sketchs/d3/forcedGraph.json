@@ -1,0 +1,1906 @@
+  {
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "age": 8,
+      "node_id": "CIN",
+      "name": "C I N THIA",
+      "sex": "F",
+      "id": 1
+    },
+    {
+      "age": 8,
+      "node_id": "PAC",
+      "name": "P AULA C",
+      "sex": "F",
+      "id": 4
+    },
+    {
+      "age": 8,
+      "node_id": "ALB",
+      "name": "A L BA",
+      "sex": "F",
+      "id": 13
+    },
+    {
+      "age": 8,
+      "node_id": "IRI",
+      "name": "I R IA",
+      "sex": "F",
+      "id": 8
+    },
+    {
+      "age": 8,
+      "node_id": "BGG",
+      "name": "BIEL G G",
+      "sex": "M",
+      "id": 15
+    },
+    {
+      "age": 8,
+      "node_id": "RAY",
+      "name": "R A Y AN",
+      "sex": "M",
+      "id": 9
+    },
+    {
+      "age": 8,
+      "node_id": "ALV",
+      "name": "A L VARO",
+      "sex": "M",
+      "id": 17
+    },
+    {
+      "age": 8,
+      "node_id": "MRT",
+      "name": "MA R TIN",
+      "sex": "M",
+      "id": 2
+    },
+    {
+      "age": 8,
+      "node_id": "YOU",
+      "name": "Y O USFA",
+      "sex": "M",
+      "id": 7
+    },
+    {
+      "age": 8,
+      "node_id": "IVN",
+      "name": "I VA N",
+      "sex": "M",
+      "id": 6
+    },
+    {
+      "age": 8,
+      "node_id": "IRN",
+      "name": "I RE NE",
+      "sex": "F",
+      "id": 10
+    },
+    {
+      "age": 8,
+      "node_id": "LUC",
+      "name": "L U CIA",
+      "sex": "F",
+      "id": 24
+    },
+    {
+      "age": 8,
+      "node_id": "PAL",
+      "name": "P AULA L",
+      "sex": "F",
+      "id": 14
+    },
+    {
+      "age": 8,
+      "node_id": "MRN",
+      "name": "MA RI NA",
+      "sex": "F",
+      "id": 3
+    },
+    {
+      "age": 8,
+      "node_id": "DAN",
+      "name": "D A NIEL",
+      "sex": "M",
+      "id": 20
+    },
+    {
+      "age": 8,
+      "node_id": "ALX",
+      "name": "A LE X",
+      "sex": "M",
+      "id": 11
+    },
+    {
+      "age": 8,
+      "node_id": "UNA",
+      "name": "U N AI",
+      "sex": "M",
+      "id": 5
+    },
+    {
+      "age": 8,
+      "node_id": "AIT",
+      "name": "A I TOU",
+      "sex": "M",
+      "id": 19
+    },
+    {
+      "age": 8,
+      "node_id": "CLA",
+      "name": "C L AUDIA",
+      "sex": "F",
+      "id": 23
+    },
+    {
+      "age": 8,
+      "node_id": "CAR",
+      "name": "C A R LA",
+      "sex": "F",
+      "id": 21
+    },
+    {
+      "age": 8,
+      "node_id": "ABR",
+      "name": "A B RIL",
+      "sex": "F",
+      "id": 12
+    },
+    {
+      "age": 8,
+      "node_id": "HAN",
+      "name": "H A NNA",
+      "sex": "F",
+      "id": 18
+    },
+    {
+      "age": 8,
+      "node_id": "RIM",
+      "name": "R I M",
+      "sex": "M",
+      "id": 22
+    },
+    {
+      "age": 8,
+      "node_id": "BGF",
+      "name": "BIEL G F",
+      "sex": "M",
+      "id": 16
+    }
+  ],
+  "links": [
+    {
+      "weight": 3,
+      "source": 1,
+      "target": 4,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 1,
+      "target": 4,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 1,
+      "target": 13,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 1,
+      "target": 13,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 1,
+      "target": 8,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 1,
+      "target": 15,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 1,
+      "target": 9,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 1,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 1,
+      "target": 17,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 1,
+      "target": 2,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 1,
+      "target": 7,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 1,
+      "target": 6,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 4,
+      "target": 1,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 4,
+      "target": 1,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 4,
+      "target": 13,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 4,
+      "target": 13,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 4,
+      "target": 10,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 4,
+      "target": 3,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 4,
+      "target": 9,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 4,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 4,
+      "target": 7,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 4,
+      "target": 5,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 4,
+      "target": 17,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 4,
+      "target": 11,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 13,
+      "target": 4,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 13,
+      "target": 4,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 13,
+      "target": 1,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 13,
+      "target": 1,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 13,
+      "target": 21,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 13,
+      "target": 21,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 13,
+      "target": 20,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 13,
+      "target": 10,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 13,
+      "target": 3,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 13,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 13,
+      "target": 11,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 13,
+      "target": 6,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 8,
+      "target": 12,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 8,
+      "target": 12,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 8,
+      "target": 24,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 8,
+      "target": 24,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 8,
+      "target": 13,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 8,
+      "target": 13,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 8,
+      "target": 17,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 8,
+      "target": 17,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 8,
+      "target": 7,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 8,
+      "target": 7,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 8,
+      "target": 9,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 8,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 15,
+      "target": 20,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 15,
+      "target": 3,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 15,
+      "target": 3,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 15,
+      "target": 16,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 15,
+      "target": 16,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 15,
+      "target": 2,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 15,
+      "target": 17,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 15,
+      "target": 5,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 15,
+      "target": 11,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 15,
+      "target": 11,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 15,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 15,
+      "target": 22,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 9,
+      "target": 5,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 9,
+      "target": 5,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 9,
+      "target": 19,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 9,
+      "target": 19,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 9,
+      "target": 2,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 9,
+      "target": 16,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 9,
+      "target": 1,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 9,
+      "target": 7,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 9,
+      "target": 7,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 9,
+      "target": 13,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 9,
+      "target": 15,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 9,
+      "target": 22,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 17,
+      "target": 19,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 17,
+      "target": 20,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 17,
+      "target": 20,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 17,
+      "target": 5,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 17,
+      "target": 11,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 17,
+      "target": 2,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 17,
+      "target": 15,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 17,
+      "target": 15,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 17,
+      "target": 22,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 17,
+      "target": 22,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 17,
+      "target": 18,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 17,
+      "target": 1,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 2,
+      "target": 16,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 2,
+      "target": 16,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 2,
+      "target": 13,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 2,
+      "target": 15,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 2,
+      "target": 7,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 2,
+      "target": 19,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 2,
+      "target": 14,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 2,
+      "target": 23,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 2,
+      "target": 21,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 2,
+      "target": 6,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 2,
+      "target": 3,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 2,
+      "target": 1,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 7,
+      "target": 2,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 7,
+      "target": 16,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 7,
+      "target": 16,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 7,
+      "target": 15,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 7,
+      "target": 15,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 7,
+      "target": 11,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 7,
+      "target": 1,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 7,
+      "target": 13,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 7,
+      "target": 23,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 7,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 7,
+      "target": 6,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 7,
+      "target": 10,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 6,
+      "target": 20,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 6,
+      "target": 19,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 6,
+      "target": 12,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 6,
+      "target": 12,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 6,
+      "target": 11,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 6,
+      "target": 4,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 6,
+      "target": 2,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 6,
+      "target": 2,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 6,
+      "target": 21,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 6,
+      "target": 24,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 6,
+      "target": 14,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 6,
+      "target": 1,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 10,
+      "target": 24,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 10,
+      "target": 24,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 10,
+      "target": 14,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 10,
+      "target": 14,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 10,
+      "target": 3,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 10,
+      "target": 4,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 10,
+      "target": 9,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 10,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 10,
+      "target": 2,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 10,
+      "target": 20,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 10,
+      "target": 7,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 10,
+      "target": 17,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 24,
+      "target": 10,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 24,
+      "target": 10,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 24,
+      "target": 8,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 24,
+      "target": 12,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 24,
+      "target": 14,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 24,
+      "target": 18,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 24,
+      "target": 7,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 24,
+      "target": 7,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 24,
+      "target": 9,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 24,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 24,
+      "target": 6,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 24,
+      "target": 17,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 14,
+      "target": 4,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 14,
+      "target": 8,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 14,
+      "target": 8,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 14,
+      "target": 10,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 14,
+      "target": 10,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 14,
+      "target": 24,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 14,
+      "target": 9,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 14,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 14,
+      "target": 22,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 14,
+      "target": 22,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 14,
+      "target": 7,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 14,
+      "target": 7,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 3,
+      "target": 4,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 3,
+      "target": 4,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 3,
+      "target": 15,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 3,
+      "target": 15,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 3,
+      "target": 18,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 3,
+      "target": 18,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 3,
+      "target": 2,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 3,
+      "target": 2,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 3,
+      "target": 9,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 3,
+      "target": 17,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 3,
+      "target": 12,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 3,
+      "target": 7,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 20,
+      "target": 19,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 20,
+      "target": 5,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 20,
+      "target": 5,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 20,
+      "target": 7,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 20,
+      "target": 15,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 20,
+      "target": 17,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 20,
+      "target": 22,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 20,
+      "target": 24,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 20,
+      "target": 24,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 20,
+      "target": 13,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 20,
+      "target": 18,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 20,
+      "target": 21,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 11,
+      "target": 5,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 11,
+      "target": 5,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 11,
+      "target": 19,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 11,
+      "target": 19,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 11,
+      "target": 17,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 11,
+      "target": 2,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 11,
+      "target": 9,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 11,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 11,
+      "target": 23,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 11,
+      "target": 4,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 11,
+      "target": 20,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 11,
+      "target": 21,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 5,
+      "target": 11,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 5,
+      "target": 11,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 5,
+      "target": 19,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 5,
+      "target": 19,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 5,
+      "target": 7,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 5,
+      "target": 17,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 5,
+      "target": 23,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 5,
+      "target": 23,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 5,
+      "target": 24,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 5,
+      "target": 12,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 5,
+      "target": 2,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 5,
+      "target": 22,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 19,
+      "target": 16,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 19,
+      "target": 16,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 19,
+      "target": 2,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 19,
+      "target": 5,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 19,
+      "target": 5,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 19,
+      "target": 20,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 19,
+      "target": 21,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 19,
+      "target": 1,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 19,
+      "target": 1,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 19,
+      "target": 13,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 19,
+      "target": 13,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 19,
+      "target": 22,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 23,
+      "target": 21,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 23,
+      "target": 21,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 23,
+      "target": 24,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 23,
+      "target": 24,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 23,
+      "target": 8,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 23,
+      "target": 8,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 23,
+      "target": 9,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 23,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 23,
+      "target": 6,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 23,
+      "target": 7,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 23,
+      "target": 1,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 23,
+      "target": 11,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 21,
+      "target": 23,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 21,
+      "target": 23,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 21,
+      "target": 13,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 21,
+      "target": 13,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 21,
+      "target": 24,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 21,
+      "target": 24,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 21,
+      "target": 11,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 21,
+      "target": 11,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 21,
+      "target": 2,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 21,
+      "target": 2,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 21,
+      "target": 19,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 21,
+      "target": 5,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 12,
+      "target": 8,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 12,
+      "target": 8,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 12,
+      "target": 23,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 12,
+      "target": 23,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 12,
+      "target": 18,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 12,
+      "target": 6,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 12,
+      "target": 17,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 12,
+      "target": 17,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 12,
+      "target": 7,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 12,
+      "target": 7,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 12,
+      "target": 9,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 12,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 18,
+      "target": 22,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 18,
+      "target": 22,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 18,
+      "target": 3,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 18,
+      "target": 3,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 18,
+      "target": 24,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 18,
+      "target": 23,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 18,
+      "target": 2,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 18,
+      "target": 9,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 18,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 18,
+      "target": 16,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 18,
+      "target": 7,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 18,
+      "target": 17,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 22,
+      "target": 18,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 22,
+      "target": 3,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 22,
+      "target": 3,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 22,
+      "target": 24,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 22,
+      "target": 4,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 22,
+      "target": 15,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 22,
+      "target": 7,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 22,
+      "target": 9,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 22,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 22,
+      "target": 17,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 22,
+      "target": 17,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 22,
+      "target": 6,
+      "key": "rejection"
+    },
+    {
+      "weight": 3,
+      "source": 16,
+      "target": 19,
+      "key": "preference"
+    },
+    {
+      "weight": 2,
+      "source": 16,
+      "target": 19,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 2,
+      "source": 16,
+      "target": 15,
+      "key": "preference"
+    },
+    {
+      "weight": 3,
+      "source": 16,
+      "target": 15,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 1,
+      "source": 16,
+      "target": 2,
+      "key": "preference"
+    },
+    {
+      "weight": 1,
+      "source": 16,
+      "target": 20,
+      "key": "perception_preference"
+    },
+    {
+      "weight": 3,
+      "source": 16,
+      "target": 9,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 3,
+      "source": 16,
+      "target": 9,
+      "key": "rejection"
+    },
+    {
+      "weight": 2,
+      "source": 16,
+      "target": 8,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 1,
+      "source": 16,
+      "target": 5,
+      "key": "perception_rejection"
+    },
+    {
+      "weight": 2,
+      "source": 16,
+      "target": 22,
+      "key": "rejection"
+    },
+    {
+      "weight": 1,
+      "source": 16,
+      "target": 13,
+      "key": "rejection"
+    }
+
+  ]
+}
