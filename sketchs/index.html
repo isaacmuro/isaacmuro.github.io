@@ -1,0 +1,35 @@
+---
+layout: default
+p5js: true
+---
+
+<style type="text/css" media="screen">
+  .container {
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+<script id="sketchLoader"></script>
+
+
+<div class="container" id="sketch">
+</div>
+<hr/>
+<script>
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+let name = getUrlVars()["name"];
+
+console.log("name:"+ name);
+$('#sketchLoader').attr('src', '/sketchs/'+name+'.js');
+</script>
