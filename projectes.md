@@ -11,7 +11,7 @@ Els projectes globalitzats estan [aquí](/globalitzats).
 
 <div class="space"/>
 <div class="row">
-  {% include cards.html link="/docs/Siopi.pdf" src="/assets/img/siopi.png" title="Siopi" text="El projecte consisteix en dissenyar i construir un detector sonor per informar quan en un espai tancat sobrepassem un llindar de so acceptable. <a href='/docs/ModelitzacioFuncions.pdf'>Modelització de funcions</a> " footer="No portat a l'aula!" %}
+  {% include cards.html link="/docs/Siopi.pdf" src="/assets/img/siopi.png" title="Siopi" text="El projecte consisteix en dissenyar i construir un detector sonor per informar quan en un espai tancat sobrepassem un llindar de so acceptable. <a href='/docs/ModelitzacioFuncions.pdf'>Modelització de funcions</a>. <a href='https://www.youtube.com/watch?v=1hldfClPiEE'>Video 1</a>. <a href='https://www.youtube.com/watch?v=BYwhBxtVBXU'>Video 2</a> " footer="No portat a l'aula!" %}
 
   {% include cards.html link="/docs/babiesandthemoon/" src="/assets/img/babiesandthemoon.jpg" title="Babies And The Moon" text="Utilitzant el mètode científic, respondre a la pregunta: 'Hi ha més naixements durant la lluna plena?'." footer="Portat a l'aula!" %}
 
