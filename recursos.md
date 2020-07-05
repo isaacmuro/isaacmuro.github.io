@@ -10,8 +10,8 @@ title: "Recursos"
 - [Competencias Matemáticas 2º ESO](https://www.geogebra.org/m/aFeyvgJK)
 - [Materials de Anton Aubanell](http://www.xtec.cat/~aaubanel/)
 - [Los tres actos de los enteros](https://tierradenumeros.com/post/hilo-tres-actos-de-los-enteros/)
-- Àmbit matemàtic: [Drive amb activitats](https://drive.google.com/drive/folders/1DRckVb0tHEqQqFpH1zH4rd0zaxBOexpl),
-
+- [Drive amb activitats](https://drive.google.com/drive/folders/1DRckVb0tHEqQqFpH1zH4rd0zaxBOexpl),
+- [Videconferencies Cesire](https://agora.xtec.cat/cesire/general/videoconferencies-del-curs-activitats-riques-i-competencies-matematiques-a-laula-de-secundaria-en-obert/)
 
 
 #### Bastides per dissenyar projectes
@@ -42,4 +42,4 @@ title: "Recursos"
 
 #### Aprenentatge cooperatiu
 
-- Llibres: [Entramado](https://twitter.com/MarianaMorale19/status/1276432304156676096)
+- Llibres: [9 ideas clave aprendizaje coorperativo](https://twitter.com/MarianaMorale19/status/1275037551359909889), [Entramado](https://twitter.com/MarianaMorale19/status/1276432304156676096)
