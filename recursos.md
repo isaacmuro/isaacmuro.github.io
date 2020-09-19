@@ -3,7 +3,7 @@ layout: page
 title: "Recursos"
 ---
 
-#### Materials
+#### Materials Matemàtiques
 
 - [Mat3](https://mat3.cat/materials/guies-de-treball/)
 - [Competencias Matemáticas 1º ESO](https://www.geogebra.org/m/dEV5qYNY)
@@ -12,6 +12,13 @@ title: "Recursos"
 - [Los tres actos de los enteros](https://tierradenumeros.com/post/hilo-tres-actos-de-los-enteros/)
 - [Drive amb activitats](https://drive.google.com/drive/folders/1DRckVb0tHEqQqFpH1zH4rd0zaxBOexpl),
 - [Videconferencies Cesire](https://agora.xtec.cat/cesire/general/videoconferencies-del-curs-activitats-riques-i-competencies-matematiques-a-laula-de-secundaria-en-obert/)
+
+#### Coses Mates
+
+- [Dimensions i competències](assets/recursos/MatesDimensions_innovamat.jpg)
+- [Àmbit Matemàtic](assets/recursos/MatesÀmbit Matemàtic.pdf)
+- Raonament i prova: [minilliçons](https://puntmat.blogspot.com/2011/11/minillicons-i-estrategies.html), [2](https://puntmat.blogspot.com/2014/03/mes-sobre-minillicons.html), [Pràctica productiva: equacions de primer grau](https://puntmat.blogspot.com/2018/09/practica-productiva-equacions-de-primer.html), [sistemes d'equacions](https://puntmat.blogspot.com/2015/01/practica-productiva-i-sistema-dequacions.html), [equacions de segon grau](https://puntmat.blogspot.com/2014/03/practica-productiva-i-equacions-de.html), [Visualització amb cubets](https://puntmat.blogspot.com/2012/02/visualitzacio-amb-cubets-iii.html), [WODB o QUELI](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/inici/dimensi%C3%B3-web/wodb?authuser=0), [Igual, però diferent](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/inici/dimensi%C3%B3-web/igual-o-diferent?authuser=0), [Cubets encaixables - Cubets](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/inici/laboratori-de-matem%C3%A0tiques/cubets-encaixables-vistes?authuser=0), [simulador de blocs](http://www.fisme.science.uu.nl/toepassingen/28020/), [Tallar i multiplicar](https://calaix2.blogspot.com/2012/10/tallar-i-multiplicar.html), [Largest Product](https://nrich.maths.org/1785).
+- Laboratori de Mates: [matematiquesmarines](https://matematiquesmarines.blogspot.com/), [Laboratori de Matemàtiques Cesire](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques), [Memòria Anton Aubanell](http://www.xtec.cat/~aaubanel/Memoria/Memoria.pdf), [Nrich explicat pel cesire](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/dimensi%C3%B3-web/nrich), [PuntMat explicat pel cesire](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/dimensi%C3%B3-web/puntmat?authuser=0), [Calaix pel cesire](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/dimensi%C3%B3-web/calaix-ie), [Y me llevo una](https://capitanswing.com/libros/y-me-llevo-una/), [Jocs d'estar per casa](https://www.vilaweb.cat/etiqueta/jocs-destar-per-casa/), [Square it](https://nrich.maths.org/squareit), [D'un sol tall](https://calaix2.blogspot.com/2015/11/dun-sol-tall-1.html), [D'un sol tall 2](https://calaix2.blogspot.com/2015/11/dun-sol-tall-2.html), [Puzzle Hexagonal](https://www.geogebra.org/m/scuk6ga4), [Rectangles d'igual perímetre, àrees i funcions](https://apliense.xtec.cat/arc/node/29113), [MathWalks](https://sites.google.com/powayusd.com/math-walks/home), 
 
 
 #### Bastides per dissenyar projectes
@@ -30,14 +37,6 @@ title: "Recursos"
 #### Avaluació
 
 - Xarxa de Competències Bàsiques [Rubrica](assets/recursos/Avaluaciorubrica.pdf), [Carpeta Aprenentatge](assets/recursos/Avaluaciocarpeta-aprenentatge.pdf), [Autoavaluacio i Coavaluacio](assets/recursos/AvaluacioAutoavaluació i coavaluació.pdf), [Les rúbriques per a una avaluació plantejada com a aprenentatge](assets/recursos/AvaluacioLes rúbriques per a una avaluació plantejada com a aprenentatge.pdf), [Decaleg de l'Avaluació Formativa](assets/recursos/AvaluacioDecaleg-AxA.pdf)
-
-#### Mates
-
-- [Dimensions i competències](assets/recursos/MatesDimensions_innovamat.jpg)
-- [Àmbit Matemàtic](assets/recursos/MatesÀmbit Matemàtic.pdf)
-- Raonament i prova: [minilliçons](https://puntmat.blogspot.com/2011/11/minillicons-i-estrategies.html), [2](https://puntmat.blogspot.com/2014/03/mes-sobre-minillicons.html), [Pràctica productiva: equacions de primer grau](https://puntmat.blogspot.com/2018/09/practica-productiva-equacions-de-primer.html), [sistemes d'equacions](https://puntmat.blogspot.com/2015/01/practica-productiva-i-sistema-dequacions.html), [equacions de segon grau](https://puntmat.blogspot.com/2014/03/practica-productiva-i-equacions-de.html), [Visualització amb cubets](https://puntmat.blogspot.com/2012/02/visualitzacio-amb-cubets-iii.html), [WODB o QUELI](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/inici/dimensi%C3%B3-web/wodb?authuser=0), [Igual, però diferent](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/inici/dimensi%C3%B3-web/igual-o-diferent?authuser=0), [Cubets encaixables - Cubets](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/inici/laboratori-de-matem%C3%A0tiques/cubets-encaixables-vistes?authuser=0), [simulador de blocs](http://www.fisme.science.uu.nl/toepassingen/28020/), [Tallar i multiplicar](https://calaix2.blogspot.com/2012/10/tallar-i-multiplicar.html), [Largest Product](https://nrich.maths.org/1785).
-- Laboratori de Mates: [matematiquesmarines](https://matematiquesmarines.blogspot.com/), [Laboratori de Matemàtiques Cesire](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques), [Memòria Anton Aubanell](http://www.xtec.cat/~aaubanel/Memoria/Memoria.pdf), [Nrich explicat pel cesire](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/dimensi%C3%B3-web/nrich), [PuntMat explicat pel cesire](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/dimensi%C3%B3-web/puntmat?authuser=0), [Calaix pel cesire](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/dimensi%C3%B3-web/calaix-ie), [Y me llevo una](https://capitanswing.com/libros/y-me-llevo-una/), [Jocs d'estar per casa](https://www.vilaweb.cat/etiqueta/jocs-destar-per-casa/), [Square it](https://nrich.maths.org/squareit), [D'un sol tall](https://calaix2.blogspot.com/2015/11/dun-sol-tall-1.html), [D'un sol tall 2](https://calaix2.blogspot.com/2015/11/dun-sol-tall-2.html), [Puzzle Hexagonal](https://www.geogebra.org/m/scuk6ga4), [Rectangles d'igual perímetre, àrees i funcions](https://apliense.xtec.cat/arc/node/29113)
-
 
 
 #### Aprenentatge cooperatiu
