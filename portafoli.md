@@ -26,16 +26,20 @@ Que he estat fent?
 ### Processing
 <div class="space"/>
 <div class="row">
-{% include cards.html link="/sketchs/index.html?name=alegria" src="/assets/img/sketchs/alegria.png" title="Alegria" text="Sketch Presentat a ProgramaLaPlaza de MediaLab Prado" footer="14/01/2019" %}
+{% include cards.html link="/sketchs/p5EasyScreen/index.html" src="/assets/img/sketchs/p5EasyScreen.png" title="p5EasyScreen" text="Aplicació per poder seqüenciar els sketchs dels alumnes" footer="28/10/2020" %}
 
-{% include cards.html link="/sketchs/index.html?name=latidos" src="/assets/img/sketchs/latidos.png" title="Latidos" text="Sketch Presentat a ProgramaLaPlaza de MediaLab Prado" footer="14/01/2019" %}
+{% include cards.html link="/sketchs/index.html?name=alegria" src="/assets/img/sketchs/alegria.png" title="Alegria" text="Sketch Presentat a ProgramaLaPlaza de MediaLab Prado" footer="14/01/2019" %}
 
 </div>
 
 <div class="space"/>
 <div class="row">
+{% include cards.html link="/sketchs/index.html?name=latidos" src="/assets/img/sketchs/latidos.png" title="Latidos" text="Sketch Presentat a ProgramaLaPlaza de MediaLab Prado" footer="14/01/2019" %}
+
 {% include cards.html link="/sketchs/index.html?name=espacioVital" src="/assets/img/sketchs/espaciovital.png" title="Espacio Vital" text="Sketch Presentat a ProgramaLaPlaza de MediaLab Prado" footer="14/01/2019" %}
+</div>
 
+<div class="space"/>
+<div class="row">
 {% include cards.html link="/noexisteix.html" src="/assets/img/sketchs/404.png" title="404 page" text="Pàgina d'error d'aquesta mateixa pàgina web" footer="14/01/2019" %}
-
 </div>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-table.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap-table.min.css">
+
+</head>
+<body>
+<h1>Control Panel</h1>
+<div class="row">
+  <div class="col-sm">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Select sketches files:</h5>
+        <div class="input-group">
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" multiple id="inputFile">
+            <label class="custom-file-label" for="inputGroupFile01">Choose files</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-sm">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Select time for every sketch:</h5>
+        <div class="input-group">
+          <input type="number" id="timeNumber" class="form-control" aria-label="Text input with dropdown button" value="5">
+          <div class="input-group-append">
+            <button id="time" class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Seconds</button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" id="seconds" href="#">Seconds</a>
+              <a class="dropdown-item" id="minutes" href="#">Minutes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-sm">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Actions:</h5>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <a href="display.html" class="btn btn-secondary" target="_blank" role="button" rel="noopener noreferrer">Open Display</a>
+          <button id="start" type="button" class="btn btn-secondary disabled" disabled>Start</button>
+          <button id="stop" type="button" class="btn btn-secondary disabled" disabled>Stop</button>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+<div id="toolbar">
+  <button id="buttonRemove" class="btn btn-secondary disabled" disabled>remove</button>
+</div>
+
+<table id="table" class="table-striped"
+    data-virtual-scroll="true"
+     data-toolbar="#toolbar"
+    data-click-to-select="true"
+    data-checkbox-header="false"
+    data-pagination="true">
+
+  <thead>
+    <tr>
+      <th data-field="state" data-checkbox="true"></th>
+      <th data-field="name" data-align="center">Name</th>
+      <th data-field="lastModified" data-align="center">Last Modified</th>
+      <th data-field="size" data-align="center">Size</th>
+    </tr>
+  </thead>
+</table>
+<div class="toast" style="position: absolute; top: 0; right: 0;">
+  <div class="toast-header">
+
+    <strong class="mr-auto" id="toastTitol">Info</strong>
+  </div>
+  <div class="toast-body" id="toastInfo">
+    Text Info
+  </div>
+</div>
+<script type="application/javascript">
+// Al començar
+$( function() {
+  // Borrar lo que haya guardado en el localStorage
+  localStorage.setItem('sketches',"");
+
+  $('#table').bootstrapTable({data: data,theadClasses:"thead-light"});
+  $('.toast').toast({
+    animation:true,
+    autohide:true,
+    delay:3000
+  });
+
+  // Al apretar al botón start.
+  $( "#start" ).click( function( event ) {
+    console.log("start:"+fileList.length);
+    if (fileList.length > 0){
+      radioValue = $("#timeNumber").val();
+      startSketches();
+      $( "#inputFile" ).prop("disabled", true);
+      $( "#inputFile" ).addClass("disabled");
+      $( "#start" ).prop("disabled", true);
+      $( "#start" ).addClass("disabled");
+      $( "#buttonRemove" ).prop("disabled", true);
+      $( "#buttonRemove" ).addClass("disabled");
+      $( "#stop" ).prop("disabled", false);
+      $( "#stop" ).removeClass("disabled");
+    }
+  });
+  $( "#stop" ).click( function( event ) {
+    clearTimeout(time);
+    $( "#start" ).prop("disabled", false);
+    $( "#start" ).removeClass("disabled");
+    $( "#buttonRemove" ).prop("disabled", false);
+    $( "#buttonRemove" ).addClass("disabled");
+    $( "#inputFile" ).prop("disabled", false);
+    $( "#inputFile" ).removeClass("disabled");
+    $( "#stop" ).prop("disabled", true);
+    $( "#stop" ).addClass("disabled");
+
+  });
+  $('#seconds').click(function () {
+      $('#time').html("Seconds");
+      minutes = false;
+  });
+  $('#minutes').click(function () {
+      $('#time').html("Minutes");
+      minutes = true;
+  });
+  // Botó de Borrar
+  $('#buttonRemove').click(function () {
+      var ids = $.map($('#table').bootstrapTable('getSelections'), function (row) {
+        return row.name
+      })
+      $('#table').bootstrapTable('remove', {
+        field: 'name',
+        values: ids
+      })
+      removeFileList(ids);
+    })
+
+  // Quan es carreguin els fitxers.
+  $("input:file").change(function (){
+       let aux = $('input[type=file]')[0].files;
+       createFileList(aux);
+       crearData();
+       $('#table').bootstrapTable('load', data);
+       $( "#start" ).prop("disabled", false);
+       $( "#start" ).removeClass("disabled");
+       $( "#buttonRemove" ).prop("disabled", false);
+       $( "#buttonRemove" ).removeClass("disabled");
+  });
+});
+
+
+let fileList = [];
+let data = [];
+let radioValue = 15;
+let time = {};
+let minutes = false;
+// Al apretar el botó Start
+function startSketches(){
+  console.log("startSketches");
+  var aux = fileList.shift();
+  console.log("send:");
+  console.log(aux);
+  sendFile(aux);
+  toast("Enviat!", "S'envia l'sketch: " +aux.name);
+  $('#table').bootstrapTable('remove', {
+    field: 'name',
+    values: aux.name
+  })
+  removeFileList([aux.name]);
+
+  if (fileList.length != 0){
+    let time = radioValue*1000;
+    if (minutes) time = time*60;
+    var t = setTimeout(function(){ startSketches() }, time);
+  } else {
+    $( "#stop" ).prop("disabled", true);
+    $( "#stop" ).addClass("disabled");
+    $( "#inputFile" ).prop("disabled", false);
+    $( "#inputFile" ).removeClass("disabled");
+
+  }
+}
+
+function toast(titol, info){
+  $('#toastTitol').html(titol);
+  $('#toastInfo').html(info);
+  $('.toast').toast('show');
+}
+// Passem de FileList a Array perquè té més mètodes i més interessants.
+function createFileList(files){
+  fileList = [];
+  files.forEach(function(el,index){
+    fileList.push(el);
+  });
+}
+function getAuthor(i){
+  let author = "";
+  let cont = fileContent[0];
+  let firstIndex = cont.indexOf("let author =");
+  if (firstIndex != -1){
+    let secondIndex = cont.indexOf("\"",firstIndex);
+    let finishIndex = cont.indexOf("\"",secondIndex+1);
+    author = cont.slice(secondIndex,finishIndex);
+  }
+  return author;
+}
+function crearData(){
+  data = [];
+  fileList.forEach(function(el, index){
+    data.push({
+      name: el.name,
+      lastModified: lastMod(el.lastModified),
+      size: sizeUnderstandable(el.size)
+    });
+  });
+
+}
+function sizeUnderstandable(size){
+  let fileSize = String(size);
+  let result = `${(Math.round(+fileSize))}bytes`;
+
+  if(fileSize.length  > 6) result = `${(Math.round(+fileSize/1024)/1000).toFixed(2)}Mb`;
+  else if(fileSize.length > 3) result = `${Math.round(+fileSize/1024).toFixed(2)}kb`
+
+  return result;
+}
+// This function take the last modification date of the file
+function lastMod(lm){
+	var modDate = new Date(lm)
+	var modYear = modDate.getYear()
+	if(modYear<1000) modYear+=1900
+	return(modDate.getHours() + ":" + addZ(modDate.getMinutes()) + ":" + addZ(modDate.getSeconds()) + " " + modDate.getDate() + "/" + addZ(modDate.getMonth()+1) + "/" + (modYear+""))
+}
+function addZ(n){
+  return n<10? '0'+n:''+n;
+}
+function removeFileList(ids){
+  ids.forEach(function(el){
+    let result = true;
+    fileList.every(function(f, index,array){
+      if (f.name == el) {
+        fileList.splice(index,1);
+        result = false;
+      }
+      return result;
+    });
+  });
+}
+// Llegim el fitxer i el deixem a sketches del localStorage
+function sendFile(file) {
+  const reader = new FileReader();
+  reader.addEventListener('load', (event) => {
+    localStorage.setItem('sketches',event.target.result);
+  });
+  reader.readAsText(file);
+}
+// Llegim el fitxer i el deixem a sketches del localStorage
+function addContentFile(file) {
+  const reader = new FileReader();
+  reader.addEventListener('load', (event) => {
+    fileContent.push(event.target.result);
+  });
+  reader.readAsText(file);
+}
+
+</script>
+</body>
+</html>

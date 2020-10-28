@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <script src="js/jquery.min.js"></script>
+    <script src="js/p5.min.js"></script>
+<style>
+body{margin:0;overflow:hidden}
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+.bg-dark {
+    background-color: #343a40 !important;
+}
+.message{
+  padding: 1rem 2rem;
+  color: #fff;
+  font-size: 2rem;
+}
+</style>
+</head>
+<body>
+    <div id="prova"></div>
+    <div id="message" class="fixed-bottom bg-dark message" >
+
+    </div>
+    <script id="sketchCode"></script>
+    <script>
+    function getAuthor(file){
+      let author = "";
+      let firstIndex = file.indexOf("let author =");
+      if (firstIndex != -1){
+        let secondIndex = file.indexOf("\"",firstIndex)+1;
+        let finishIndex = file.indexOf("\"",secondIndex);
+        author = file.slice(secondIndex,finishIndex);
+      }
+      return author;
+    }
+
+
+
+    $(function () {
+      $(window).bind('storage', function (e) {
+         window.location.reload(true);
+      });
+    });
+
+    let files = localStorage.getItem('sketches');
+    let autor = getAuthor(files);
+    $('#sketchCode').html(files);
+    $('#message').hide();
+    if (autor.length > 0){
+      $('#message').html("Author: "+autor);
+      $('#message').fadeIn('slow');
+      let t = setTimeout(function(){ $('#message').fadeOut(); }, 3000);
+      t = setTimeout(function(){ $('#message').css("display", "none"); }, 4000);
+    }
+    </script>
+
+</body>
+
+</html>
