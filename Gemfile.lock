@@ -45,7 +45,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (>= 3.6.3)
+  jekyll (= 3.6.3)
   tzinfo-data
 
 RUBY VERSION
