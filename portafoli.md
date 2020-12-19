@@ -5,7 +5,7 @@ title: "Portafoli"
 
 Que he estat fent?
 
-### Visualització de Dades amd D3
+### Visualització de Dades amb D3
 
 <div class="space"/>
 <div class="row">
@@ -24,6 +24,14 @@ Que he estat fent?
 
 
 ### Processing
+<div class="space"/>
+<div class="row">
+{% include cards.html link="/sketchs/p5EasyScreen/index.html" src="/assets/img/sketchs/p5EasyScreen.png" title="p5EasyScreen" text="Aplicació per poder seqüenciar els sketchs dels alumnes" footer="28/10/2020" %}
+
+{% include cards.html link="/sketchs/index.html?name=alegria" src="/assets/img/sketchs/alegria.png" title="Alegria" text="Sketch Presentat a ProgramaLaPlaza de MediaLab Prado" footer="14/01/2019" %}
+
+</div>
+
 <div class="space"/>
 <div class="row">
 {% include cards.html link="/sketchs/p5EasyScreen/index.html" src="/assets/img/sketchs/p5EasyScreen.png" title="p5EasyScreen" text="Aplicació per poder seqüenciar els sketchs dels alumnes" footer="28/10/2020" %}

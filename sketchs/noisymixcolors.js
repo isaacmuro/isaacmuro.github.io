@@ -1,0 +1,1 @@
+y=t=0,p=[],s=255,setup=o=>{for(l=createCanvas(w=192,h=157),l.parent('noisyMixColorssketch'),noStroke(),r=random,j=7;j--;)p.push([r(s),r(s),r(s),100])},draw=r=>{for(background(0),i=0,t+=.4,d=t;d<t+100;d++){for(j=7;j--;)y=200*noise(.015*d,j),fill(p[j]),circle(i*w/100,y,20);i++}};//#tinycode @CCodeMadrid

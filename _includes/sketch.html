@@ -1,0 +1,9 @@
+<script id="sketchLoader{{ include.id }}"></script>
+<div style="text-align:center">
+  <div class="container" id="{{ include.id }}sketch">
+  </div>
+  <script>
+    $('#sketchLoader{{ include.id }}').attr('src', '{{ include.sketch }}');
+  </script>
+  <a href="{{ include.sketch }}">Source</a>
+</div>
