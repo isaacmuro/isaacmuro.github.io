@@ -18,6 +18,13 @@ title: "Recursos"
 - [Tecnologia a la clase de mates](https://mei.org.uk/integrating-technology)
 - [Geogebra Triviño](https://geogebra.ptrivino.es/export/capital201.html),[2](https://geogebra.ptrivino.es/export/capital202.html),[3](https://geogebra.ptrivino.es/export/capital203.html),[4](https://geogebra.ptrivino.es/export/capital204.html),[5](https://geogebra.ptrivino.es/export/capital205.html),[6](https://geogebra.ptrivino.es/export/capital206.html),[7](https://geogebra.ptrivino.es/export/capital207.html),[8](https://geogebra.ptrivino.es/export/capital208.html),[9](https://geogebra.ptrivino.es/export/capital209.html)
 - [Math Tasks/Resources](https://docs.google.com/document/d/1vk4UNSkYUXtcL7znqpxRQD_9h7Fa9cV8wPuWOmDtHoI/edit)
+- [Mariel Mates](https://marielmatesblog.wordpress.com)
+- [Materials Genially](https://view.genial.ly/5f5e5dcd79626a0d71280042)
+- [Matemàtiques BAT1-Científic/Tecnològic](https://docs.google.com/document/d/1YCm2M9XL3PwRna-7okh0lCBzn0o8pyvwR2xPEAglu2M/edit#heading=h.4jvlyd3kj3wt)
+- [Àrees i Volums](https://drive.google.com/file/d/1Y6rgT6OopZEKROyxYC5BH21SgkOWpY3-/view)
+- [Llibres Mates 1r ESO](https://drive.google.com/drive/folders/1BZG7rhk_aJg2q_mMo5_Jc1YR2BZORBZE)
+- [Tutorial Geogebra](https://www.geogebra.org/m/depdxhks)
+- [K-12 Math Collection: 3-Act Tasks/Desmos Activities/Thinking Prompts](https://drive.google.com/drive/folders/1VR1wyM6W01dA7iKjRO7VWqLo9Z4Fznoz)
 
 #### Temes Mates
 - Raonament i prova: [minilliçons](https://puntmat.blogspot.com/2011/11/minillicons-i-estrategies.html), [2](https://puntmat.blogspot.com/2014/03/mes-sobre-minillicons.html), [Pràctica productiva: equacions de primer grau](https://puntmat.blogspot.com/2018/09/practica-productiva-equacions-de-primer.html), [sistemes d'equacions](https://puntmat.blogspot.com/2015/01/practica-productiva-i-sistema-dequacions.html), [equacions de segon grau](https://puntmat.blogspot.com/2014/03/practica-productiva-i-equacions-de.html), [Visualització amb cubets](https://puntmat.blogspot.com/2012/02/visualitzacio-amb-cubets-iii.html), [WODB o QUELI](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/inici/dimensi%C3%B3-web/wodb?authuser=0), [Igual, però diferent](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/inici/dimensi%C3%B3-web/igual-o-diferent?authuser=0),[WODB](http://wodb.ca/) ,[Cubets encaixables - Cubets](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/inici/laboratori-de-matem%C3%A0tiques/cubets-encaixables-vistes?authuser=0), [simulador de blocs](http://www.fisme.science.uu.nl/toepassingen/28020/), [Tallar i multiplicar](https://calaix2.blogspot.com/2012/10/tallar-i-multiplicar.html), [Largest Product](https://nrich.maths.org/1785).
@@ -51,3 +58,11 @@ title: "Recursos"
 #### Aprenentatge cooperatiu
 
 - Llibres: [9 ideas clave aprendizaje coorperativo](https://twitter.com/MarianaMorale19/status/1275037551359909889), [Entramado](https://twitter.com/MarianaMorale19/status/1276432304156676096)
+
+#### Física i Química
+
+- [Fisica i Quimica](https://fisiquimicamente.com/recursos-fisica-quimica/apuntes/)
+
+#### Informàtica
+
+- [Curriculum Informatica](https://teachcomputing.org/curriculum)
