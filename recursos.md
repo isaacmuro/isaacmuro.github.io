@@ -34,9 +34,17 @@ title: "Recursos"
 
 #### Temes Mates
 - Raonament i prova: [minilliçons](https://puntmat.blogspot.com/2011/11/minillicons-i-estrategies.html), [2](https://puntmat.blogspot.com/2014/03/mes-sobre-minillicons.html), [Pràctica productiva: equacions de primer grau](https://puntmat.blogspot.com/2018/09/practica-productiva-equacions-de-primer.html), [sistemes d'equacions](https://puntmat.blogspot.com/2015/01/practica-productiva-i-sistema-dequacions.html), [equacions de segon grau](https://puntmat.blogspot.com/2014/03/practica-productiva-i-equacions-de.html), [Visualització amb cubets](https://puntmat.blogspot.com/2012/02/visualitzacio-amb-cubets-iii.html), [WODB o QUELI](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/inici/dimensi%C3%B3-web/wodb?authuser=0), [Igual, però diferent](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/inici/dimensi%C3%B3-web/igual-o-diferent?authuser=0),[WODB](http://wodb.ca/) ,[Cubets encaixables - Cubets](https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/inici/laboratori-de-matem%C3%A0tiques/cubets-encaixables-vistes?authuser=0), [simulador de blocs](http://www.fisme.science.uu.nl/toepassingen/28020/), [Tallar i multiplicar](https://calaix2.blogspot.com/2012/10/tallar-i-multiplicar.html), [Largest Product](https://nrich.maths.org/1785).
+- [Prealgebra](https://www.solvemoji.com/popular)
 - [Sistemes d'equacions](https://twitter.com/pbeltranp/status/1444589336759001095?t=a_GfkpU2w26kv4TlYPkYCQ&s=03)
 - Estadística i probabilitat: [Col·lecció d'activitats a Desmos](https://teacher.desmos.com/collection/60a295dace195c38b21c139a?lang=es)
+- [Toda la estadistica de secundaria con geogebra](https://www.youtube.com/watch?v=0TloqsuEGHA), [1](https://drive.google.com/file/d/124SPE-PwvGB78O73eTJeU_ns5LNOHY_Y/view)
+- [Estadística i probabilitat FeemCat](http://ademgi.feemcat.org/materials/tema13/)
+- [Probabilidad](https://seeing-theory.brown.edu/basic-probability/es.html)
+- [Unequal averages](https://nrich.maths.org/unequal), [1](https://www.youtube.com/watch?v=BhDINcErhkU&t=7329s), [2](https://twitter.com/CcBcnMvd/status/1401157091621052418/photo/1), [3](https://twitter.com/CcBcnMvd/status/1401157091621052418)
+- [Tareas ricas Probabilidad](https://docs.google.com/presentation/d/1tPsgxgObWB1TCmcq6Ugv06sDMfhbYdSUu3J2qCNr11A/edit#slide=id.ge4fc03a361_0_408)
 - [Beano](https://twitter.com/palindromiano/status/1446518464810819601)
+
+- [Trigonometria](https://twitter.com/MathigonOrg/status/1398640589823004677?s=09)
 
 #### Coses Mates
 
@@ -49,6 +57,7 @@ title: "Recursos"
 
 - [Regla de tres](https://twitter.com/pbeltranp/status/1386273501443670016), [Comparación y orden de fracciones](https://twitter.com/pbeltranp/status/1332978320280088576?t=4t0YAK-3R-Nsq2BAm7eEqQ&s=19), [2](https://twitter.com/pbeltranp/status/1446919670209159169)
 - [Jocs d'estrategia](https://twitter.com/srdelafu/status/1445039608476094470?t=IcyBc3U4LmvzMQAFXFWarw&s=03),[2](/assets/recursos/Jocs d'estrategia/)
+- [Primers dies](https://mathequalslove.net/first-week-of-school-activities/#Lets_Make_Squares)
 
 #### Aritmetica
 - [Los cuatro cuatros](https://es.wikipedia.org/wiki/Cuatro_cuatros)
